@@ -1,0 +1,61 @@
+.container {
+  width: 330px;
+  margin: 15px auto;
+  padding: 15px;
+  border: gray solid 2px;
+  border-radius: 20px;
+}
+
+.pageHeader {
+  margin-bottom: 42px;
+  text-align: center;
+  background-color: azure;
+  border: gray solid 2px;
+  border-radius: 10px;
+}
+
+.section {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  border-top: gray solid 1px;
+}
+
+.sectionName {
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.subsection {
+  margin-bottom: 24px;
+}
+
+.subsectionName {
+  margin-bottom: 12px;
+}
+
+.card {
+  margin-bottom: 18px;
+  border: gray solid 1px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  padding: 12px;
+}
+
+.name p {
+  text-indent: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+/* p {
+  text-indent: 20px;
+} */
