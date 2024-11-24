@@ -158,9 +158,13 @@ p {
   }
 
   .card1 {
+    width: fit-content;
+    margin-right: auto;
     flex-direction: row;
   }
   .card2 {
+    width: fit-content;
+    margin-left: auto;
     flex-direction: row-reverse;
   }
 

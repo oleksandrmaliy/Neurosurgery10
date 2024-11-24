@@ -78,14 +78,17 @@ function Therapy() {
                 <p>
                   <strong>Лазарєва Оксана Василівна</strong>, лікар-терапевт{' '}
                 </p>
+                <br />
                 <p>
-                  <strong>Освіта:</strong> ВНМУ ім. Н.А.Пирогова
+                  <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
-                  <strong>Досвід:</strong> 10 років
+                  <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
-                  <strong>Категорія:</strong> Перша
+                  <strong>Категорія:</strong>
                 </p>
               </div>
             </div>
@@ -98,12 +101,15 @@ function Therapy() {
                 <p>
                   <strong>Могільчук Надія Олександрівна</strong>, лікар-терапевт
                 </p>
+                <br />
                 <p>
                   <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Категорія:</strong>
                 </p>
@@ -115,12 +121,15 @@ function Therapy() {
                 <p>
                   <strong>Гамалій Валентина Михайлівна</strong>, лікар-терапевт
                 </p>
+                <br />
                 <p>
                   <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Категорія:</strong>
                 </p>
@@ -132,12 +141,15 @@ function Therapy() {
                 <p>
                   <strong>Лобода Леся Володимирівна</strong>, лікар-терапевт
                 </p>
+                <br />
                 <p>
                   <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Категорія:</strong>
                 </p>
@@ -149,12 +161,15 @@ function Therapy() {
                 <p>
                   <strong>Дідківська Марта Орестівна</strong>, лікар-терапевт
                 </p>
+                <br />
                 <p>
                   <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Категорія:</strong>
                 </p>
@@ -166,12 +181,15 @@ function Therapy() {
                 <p>
                   <strong>Малій Дар’я Олександрівна</strong>, лікар-терапевт
                 </p>
+                <br />
                 <p>
                   <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Категорія:</strong>
                 </p>
@@ -183,12 +201,15 @@ function Therapy() {
                 <p>
                   <strong>Барташевська Олена Вікторівна</strong>, лікар-терапевт
                 </p>
+                <br />
                 <p>
                   <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Категорія:</strong>
                 </p>
@@ -200,12 +221,15 @@ function Therapy() {
                 <p>
                   <strong>Сіденко Анастасія Михайлівна</strong>, лікар-терапевт
                 </p>
+                <br />
                 <p>
                   <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Категорія:</strong>
                 </p>
@@ -217,12 +241,15 @@ function Therapy() {
                 <p>
                   <strong>Гралюк Марина Іванівна</strong>, лікар-терапевт
                 </p>
+                <br />
                 <p>
                   <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Категорія:</strong>
                 </p>
@@ -234,12 +261,15 @@ function Therapy() {
                 <p>
                   <strong>Ковальчук Марія Володимирівна</strong>, лікар-невролог
                 </p>
+                <br />
                 <p>
                   <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Категорія:</strong>
                 </p>
@@ -251,12 +281,15 @@ function Therapy() {
                 <p>
                   <strong>Кропива Володимир Васильович</strong>, лікар-невролог
                 </p>
+                <br />
                 <p>
                   <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
                   <strong>Категорія:</strong>
                 </p>
@@ -268,14 +301,17 @@ function Therapy() {
                 <p>
                   <strong>Савінова Діана Володимирівна</strong>, лікар-інтерн
                 </p>
+                <br />
                 <p>
                   <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
-                  <strong>Досвід:</strong> 1 рік
+                  <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
-                  <strong>Категорія:</strong> Інтерн
+                  <strong>Категорія:</strong>
                 </p>
               </div>
             </div>
@@ -285,14 +321,17 @@ function Therapy() {
                 <p>
                   <strong>Шульган Тетяна Вікторівна</strong>, лікар-інтерн
                 </p>
+                <br />
                 <p>
                   <strong>Освіта:</strong>
                 </p>
+                <br />
                 <p>
-                  <strong>Досвід:</strong> 1 рік
+                  <strong>Досвід:</strong>
                 </p>
+                <br />
                 <p>
-                  <strong>Категорія:</strong> Інтерн
+                  <strong>Категорія:</strong>
                 </p>
               </div>
             </div>
