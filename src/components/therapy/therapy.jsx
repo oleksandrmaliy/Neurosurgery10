@@ -60,7 +60,7 @@ function Therapy() {
           </div>
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Контактні телефони:</h4>
-            <p>(044) 527-69-58 - зав. відділенням;</p>
+            <p>(044) 527-69-58 - завідуюча відділенням;</p>
             <p>(044) 518-64-90 - ординаторська;</p>
           </div>
         </div>
