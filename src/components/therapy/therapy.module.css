@@ -58,9 +58,7 @@ p {
   border: gray solid 1px;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Тінь */
-
-  background-color: #fff; /* Білий фон (для контрасту з тінню) */
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .photo {
@@ -74,6 +72,10 @@ p {
 
 .name p {
   text-indent: 0;
+}
+
+.name .para {
+  text-indent: 20px;
 }
 
 .bold {
