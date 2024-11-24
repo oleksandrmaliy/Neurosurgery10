@@ -1,28 +1,40 @@
 .container {
-  width: 330px;
-  margin: 15px auto;
-  padding: 15px;
-  border: gray solid 2px;
-  border-radius: 20px;
+  width: 100%;
+  margin: 16px 0;
+  padding: 32px 16px 16px;
+  /* border: gray solid 2px;
+  border-radius: 20px; */
+
+  /* font-size: 14px; */
+}
+
+p,
+h4 {
+  font-size: 14px;
+}
+h2 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 16px;
 }
 
 .pageHeader {
-  margin-bottom: 42px;
+  margin-bottom: 32px;
   text-align: center;
-  background-color: azure;
-  border: gray solid 2px;
-  border-radius: 10px;
+  /* font-size: 22px; */
 }
 
 .section {
-  padding-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 32px;
+
   border-top: gray solid 1px;
 }
 
 .sectionName {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
   text-align: center;
+  /* font-size: ; */
 }
 
 .subsection {
@@ -30,13 +42,18 @@
 }
 
 .subsectionName {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
+  /* font-size: large; */
 }
 
-.card {
-  margin-bottom: 18px;
-  border: gray solid 1px;
-  border-radius: 10px;
+.card1,
+.card2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  /* border: gray solid 1px;
+  border-radius: 10px; */
   overflow: hidden;
 }
 
@@ -46,7 +63,7 @@
 }
 
 .name {
-  padding: 12px;
+  padding: 32px;
 }
 
 .name p {
@@ -56,6 +73,99 @@
 .bold {
   font-weight: bold;
 }
-/* p {
-  text-indent: 20px;
-} */
+
+@media (min-width: 721px) {
+  .container {
+    max-width: 690px;
+  }
+
+  .card1 {
+    flex-direction: row;
+  }
+  .card2 {
+    flex-direction: row-reverse;
+  }
+
+  .photo {
+    width: 40%;
+  }
+
+  .card1 .name {
+    width: fit-content;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  .card2 .name {
+    width: fit-content;
+    margin-left: auto;
+    text-align: left;
+  }
+
+  p,
+  h4 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 961px) {
+  .container {
+    max-width: 930px;
+  }
+
+  .card1 {
+    flex-direction: row;
+  }
+  .card2 {
+    flex-direction: row-reverse;
+  }
+
+  .photo {
+    width: 30%;
+  }
+
+  p,
+  h4 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .container {
+    max-width: 1170px;
+  }
+
+  .card1 {
+    flex-direction: row;
+  }
+  .card2 {
+    flex-direction: row-reverse;
+  }
+
+  .photo {
+    width: 360px;
+  }
+
+  p,
+  h4 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+}

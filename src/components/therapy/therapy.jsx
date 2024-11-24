@@ -9,11 +9,11 @@ function Therapy() {
         <div className={css.section}>
           <h3 className={css.sectionName}>Про відділення</h3>
           <div className={css.subsection}>
-            <h4>Завідуюча відділенням:</h4>
+            <h4 className={css.subsectionName}>Завідуюча відділенням:</h4>
             <p>Лазарєва Оксана Василівна, лікар-терапевт.</p>
           </div>
           <div className={css.subsection}>
-            <h4>Основна діяльність:</h4>
+            <h4 className={css.subsectionName}>Основна діяльність:</h4>
             <p>
               Відділення забезпечує цілодобову ургентну допомогу пацієнтам з
               терапевтичними та критичними станами, включаючи бронхо-легеневу,
@@ -28,7 +28,7 @@ function Therapy() {
             </p>
           </div>
           <div className={css.subsection}>
-            <h4>Статистика:</h4>
+            <h4 className={css.subsectionName}>Статистика:</h4>
             <p>
               Місткість відділення інтенсивної терапії невідкладних станів
               становить 50 ліжок. Щороку тут приймають на лікування до ??? та
@@ -39,7 +39,7 @@ function Therapy() {
             <p>Летальність зберігається на низькому рівні — близько 1,5%.</p>
           </div>
           <div className={css.subsection}>
-            <h4>Діагностичні можливості:</h4>
+            <h4 className={css.subsectionName}>Діагностичні можливості:</h4>
             <p>
               Відділення має доступ до сучасних методів діагностики, таких як
               КТ, МРТ, УЗД, рентгенографія, ехо-кардіографія, доплерографія та
@@ -48,7 +48,7 @@ function Therapy() {
             </p>
           </div>
           <div className={css.subsection}>
-            <h4>Наукова діяльність:</h4>
+            <h4 className={css.subsectionName}>Наукова діяльність:</h4>
             <p>
               Відділення є навчальною базою кафедри невідкладних станів
               Національної медичної академії післядипломної освіти імені П. Л.
@@ -59,7 +59,7 @@ function Therapy() {
             </p>
           </div>
           <div className={css.subsection}>
-            <h4>Контактні телефони:</h4>
+            <h4 className={css.subsectionName}>Контактні телефони:</h4>
             <p>(044) 527-69-58 - зав. відділенням;</p>
             <p>(044) 518-64-90 - ординаторська;</p>
           </div>
@@ -68,7 +68,7 @@ function Therapy() {
           <h3 className={css.sectionName}>Фотогалерея</h3>
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Завідуюча відділенням</h4>
-            <div className={css.card}>
+            <div className={css.card1}>
               <img
                 className={css.photo}
                 src="/manager.jpg"
@@ -92,7 +92,7 @@ function Therapy() {
           </div>
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Лікарський склад</h4>
-            <div className={css.card}>
+            <div className={css.card1}>
               <img className={css.photo} src="/doctor1.jpg" alt="Доктор" />
               <div className={css.name}>
                 <p>
@@ -109,7 +109,7 @@ function Therapy() {
                 </p>
               </div>
             </div>
-            <div className={css.card}>
+            <div className={css.card2}>
               <img className={css.photo} src="/doctor2.jpg" alt="Доктор" />
               <div className={css.name}>
                 <p>
@@ -126,7 +126,7 @@ function Therapy() {
                 </p>
               </div>
             </div>
-            <div className={css.card}>
+            <div className={css.card1}>
               <img className={css.photo} src="/doctor1.jpg" alt="Доктор" />
               <div className={css.name}>
                 <p>
@@ -143,7 +143,7 @@ function Therapy() {
                 </p>
               </div>
             </div>
-            <div className={css.card}>
+            <div className={css.card2}>
               <img className={css.photo} src="/doctor2.jpg" alt="Доктор" />
               <div className={css.name}>
                 <p>
@@ -160,7 +160,7 @@ function Therapy() {
                 </p>
               </div>
             </div>
-            <div className={css.card}>
+            <div className={css.card1}>
               <img className={css.photo} src="/doctor1.jpg" alt="Доктор" />
               <div className={css.name}>
                 <p>
@@ -177,7 +177,7 @@ function Therapy() {
                 </p>
               </div>
             </div>
-            <div className={css.card}>
+            <div className={css.card2}>
               <img className={css.photo} src="/doctor2.jpg" alt="Доктор" />
               <div className={css.name}>
                 <p>
@@ -194,7 +194,7 @@ function Therapy() {
                 </p>
               </div>
             </div>
-            <div className={css.card}>
+            <div className={css.card1}>
               <img className={css.photo} src="/doctor1.jpg" alt="Доктор" />
               <div className={css.name}>
                 <p>
@@ -211,7 +211,7 @@ function Therapy() {
                 </p>
               </div>
             </div>
-            <div className={css.card}>
+            <div className={css.card2}>
               <img className={css.photo} src="/doctor2.jpg" alt="Доктор" />
               <div className={css.name}>
                 <p>
@@ -228,7 +228,7 @@ function Therapy() {
                 </p>
               </div>
             </div>
-            <div className={css.card}>
+            <div className={css.card1}>
               <img className={css.photo} src="/doctor1.jpg" alt="Доктор" />
               <div className={css.name}>
                 <p>
@@ -245,7 +245,7 @@ function Therapy() {
                 </p>
               </div>
             </div>
-            <div className={css.card}>
+            <div className={css.card2}>
               <img className={css.photo} src="/doctor3.jpg" alt="Доктор" />
               <div className={css.name}>
                 <p>
@@ -262,7 +262,7 @@ function Therapy() {
                 </p>
               </div>
             </div>
-            <div className={css.card}>
+            <div className={css.card1}>
               <img className={css.photo} src="/doctor1.jpg" alt="Доктор" />
               <div className={css.name}>
                 <p>
@@ -279,7 +279,7 @@ function Therapy() {
                 </p>
               </div>
             </div>
-            <div className={css.card}>
+            <div className={css.card2}>
               <img className={css.photo} src="/doctor2.jpg" alt="Доктор" />
               <div className={css.name}>
                 <p>
