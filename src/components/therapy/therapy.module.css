@@ -21,13 +21,13 @@ p {
 
 .pageHeader {
   padding-bottom: 32px;
+  margin-bottom: 64px;
   text-align: center;
   border-bottom: gray solid 1px;
 }
 
 .section {
-  margin-bottom: 32px;
-  padding-top: 32px;
+  margin-bottom: 64px;
   border-bottom: gray solid 1px;
 }
 

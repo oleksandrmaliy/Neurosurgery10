@@ -361,6 +361,10 @@ function Therapy() {
                 <p>
                   <strong>Досвід:</strong>
                 </p>
+                <br />
+                <p>
+                  <strong>Категорія:</strong>
+                </p>
               </div>
             </div>
             <div className={css.card2}>
@@ -409,7 +413,7 @@ function Therapy() {
             <div className={css.card1}>
               <img
                 className={css.photo}
-                src="/headnurse.jpg"
+                src="/nurseboss.jpg"
                 alt="Сестра-господарка"
               />
               <div className={css.name}>
@@ -419,7 +423,7 @@ function Therapy() {
                 </p>
                 <br />
                 <p>
-                  <strong>Освіта:</strong> А нада ?
+                  <strong>Освіта:</strong>
                 </p>
                 <br />
                 <p>
