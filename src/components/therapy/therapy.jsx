@@ -61,7 +61,7 @@ function Therapy() {
             </p>
           </div>
           <div className={css.subsection}>
-            <h4 className={css.subsectionName}>Основна діяльність:</h4>
+            <h4 className={css.subsectionName}>Щоденна діяльність:</h4>
             <p>
               Відділення працює цілодобово, надаючи невідкладну допомогу
               пацієнтам із широким спектром терапевтичних та критичних станів.
@@ -310,12 +310,12 @@ function Therapy() {
                 </p>
                 <br />
                 <p>
-                  <strong>Категорія: </strong>
+                  <strong>Категорія: </strong>Спеціаліст
                 </p>
                 <br />
                 <p>
                   <strong>Лікарський досвід: </strong>
-                  {getYearsExp(2024)}
+                  {getYearsExp(2021)}
                 </p>
               </div>
             </div>
@@ -331,12 +331,12 @@ function Therapy() {
                 </p>
                 <br />
                 <p>
-                  <strong>Категорія: </strong>
+                  <strong>Категорія: </strong>Вища
                 </p>
                 <br />
                 <p>
                   <strong>Лікарський досвід: </strong>
-                  {getYearsExp(2024)}
+                  {getYearsExp(2007)}
                 </p>
               </div>
             </div>
@@ -373,12 +373,12 @@ function Therapy() {
                 </p>
                 <br />
                 <p>
-                  <strong>Категорія: </strong>
+                  <strong>Категорія: </strong>Вища
                 </p>
                 <br />
                 <p>
                   <strong>Лікарський досвід: </strong>
-                  {getYearsExp(2024)}
+                  {getYearsExp(2000)}
                 </p>
               </div>
             </div>
@@ -406,7 +406,7 @@ function Therapy() {
                 <br />
                 <p>
                   <strong>Досвід: </strong>
-                  {/* {new Date().getFullYear() - 2013} років */}
+                  {getYearsExp(1993)}
                 </p>
               </div>
             </div>
@@ -471,7 +471,7 @@ function Therapy() {
                 <br />
                 <p>
                   <strong>Досвід: </strong>
-                  {/* {new Date().getFullYear() - 2013} років */}
+                  {getYearsExp(2024)}
                 </p>
               </div>
             </div>
