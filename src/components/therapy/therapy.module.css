@@ -1,6 +1,8 @@
 .container {
   width: 100%;
   /* margin: 16px 16px 16px 16px; */
+  /* margin-top: 16px;
+  margin-bottom: 16px; */
   padding: 32px 16px 16px 16px;
   border: red solid 2px;
   border-radius: 20px;
