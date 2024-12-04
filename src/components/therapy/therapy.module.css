@@ -1,9 +1,9 @@
 .container {
   width: 100%;
-  margin: 16px 16px16px 16px;
+  /* margin: 16px 16px 16px 16px; */
   padding: 32px 16px 16px 16px;
-  /* border: gray solid 2px;
-  border-radius: 20px; */
+  border: red solid 2px;
+  border-radius: 20px;
 }
 
 h2 {
