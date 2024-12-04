@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  margin: 16px 0;
+  margin: 16px 16px;
   padding: 32px 16px 16px;
   /* border: gray solid 2px;
   border-radius: 20px; */
@@ -44,6 +44,7 @@ p {
   margin-bottom: 16px;
 }
 
+.headCard,
 .card1,
 .card2 {
   width: 100%;
@@ -77,23 +78,30 @@ p {
 @media (min-width: 721px) {
   .container {
     max-width: 690px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .photo {
     width: 270px;
   }
 
+  .headCard {
+    flex-direction: row;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .card1 {
     flex-direction: row;
     width: fit-content;
     margin-right: auto;
-    flex-direction: row;
   }
   .card2 {
     flex-direction: row-reverse;
     width: fit-content;
     margin-left: auto;
-    flex-direction: row-reverse;
   }
 
   h2 {
@@ -113,6 +121,8 @@ p {
 @media (min-width: 961px) {
   .container {
     max-width: 930px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .photo {
@@ -136,6 +146,8 @@ p {
 @media (min-width: 1201px) {
   .container {
     max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .photo {

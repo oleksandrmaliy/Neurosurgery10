@@ -143,7 +143,7 @@ function Therapy() {
           <h3 className={css.sectionName}>Фотогалерея</h3>
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Керівний склад</h4>
-            <div className={css.card1}>
+            <div className={css.headCard}>
               <img
                 className={css.photo}
                 src="/manager.jpg"
@@ -385,7 +385,7 @@ function Therapy() {
           </div>
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Сестринський склад</h4>
-            <div className={css.card1}>
+            <div className={css.headCard}>
               <img
                 className={css.photo}
                 src="/headnurse.jpg"
@@ -410,16 +410,12 @@ function Therapy() {
                 </p>
               </div>
             </div>
-            <div className={css.card2}>
+            <div className={css.card1}>
               <img className={css.photo} src="/nurses.jpg" alt="Медсестри" />
               <div className={css.name}>
                 <p>
-                  <strong>Павленко Галина Степанівна</strong>, медична сестра
-                </p>
-                <br />
-                <p>
                   <strong>Омельченко Світлана Миколаївна</strong>, медична
-                  сестра
+                  сестра вищої категорії
                 </p>
                 <br />
                 <p>
@@ -431,15 +427,31 @@ function Therapy() {
                 </p>
               </div>
             </div>
+            <div className={css.card2}>
+              <img className={css.photo} src="/nurses.jpg" alt="Медсестри" />
+              <div className={css.name}>
+                <p>
+                  <strong>Павленко Галина Степанівна</strong>, медична сестра
+                  вищої категорії
+                </p>
+                <br />
+                <p>
+                  <strong>Новак Анна Василівна</strong>, медична сестра вищої
+                  категорії
+                </p>
+                <br />
+                <p>
+                  <strong>Домашевкська Світлана Анатоліївна</strong>, медична
+                  сестра вищої категорії
+                </p>
+              </div>
+            </div>
             <div className={css.card1}>
               <img className={css.photo} src="/nurses.jpg" alt="Медсестри" />
               <div className={css.name}>
                 <p>
                   <strong>Приседько Ольга Андріївна</strong>, медична сестра
-                </p>
-                <br />
-                <p>
-                  <strong>Новак Анна Василівна</strong>, медична сестра
+                  вищої категорії
                 </p>
                 <br />
                 <p>
@@ -454,7 +466,7 @@ function Therapy() {
           </div>
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Молодший сестринський склад</h4>
-            <div className={css.card1}>
+            <div className={css.headCard}>
               <img
                 className={css.photo}
                 src="/nurseboss.jpg"
@@ -471,7 +483,7 @@ function Therapy() {
                 <br />
                 <p>
                   <strong>Досвід: </strong>
-                  {getYearsExp(2024)}
+                  {getYearsExp(1996)}
                 </p>
               </div>
             </div>
