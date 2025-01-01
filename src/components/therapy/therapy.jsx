@@ -1,27 +1,11 @@
 import css from './therapy.module.css';
 
 function Therapy() {
-  const getYearsExp = (year) => {
-    const years = new Date().getFullYear() - year;
-
-    if (years % 10 === 1 && years % 100 !== 11) {
-      return `${years} рік`;
-    } else if (
-      [2, 3, 4].includes(years % 10) &&
-      ![12, 13, 14].includes(years % 100)
-    ) {
-      return `${years} роки`;
-    } else {
-      return `${years} років`;
-    }
-  };
-
   return (
     <>
       <img className={css.menu} src="/menu.jpg" alt="menu" />
       <div className={css.container}>
         <h2 className={css.pageHeader}>Терапевтичне відділення</h2>
-
         <div className={css.section}>
           <h3 className={css.sectionName}>Про відділення</h3>
           <div className={css.subsection}>
@@ -151,8 +135,9 @@ function Therapy() {
             <div className={css.headCard}>
               <img
                 className={css.headPhoto}
-                src="/manager.jpg"
+                src="/LazarevaOV-2.jpg"
                 alt="Завідуюча відділенням"
+                loading="lazy"
               />
               <div className={css.headTextData}>
                 <div className={css.headName}>
@@ -172,8 +157,7 @@ function Therapy() {
                     <strong>Категорія: </strong>Друга
                   </p>
                   <p>
-                    <strong>Лікарський досвід: </strong>
-                    {getYearsExp(2013)}
+                    <strong>Досвід: </strong>з 2013 року
                   </p>
                 </div>
               </div>
@@ -183,7 +167,12 @@ function Therapy() {
             <h4 className={css.subsectionName}>Лікарський склад</h4>
             <div className={css.sectionGrid}>
               <div className={css.docCard}>
-                <img className={css.docPhoto} src="/doctor1.jpg" alt="Доктор" />
+                <img
+                  className={css.docPhoto}
+                  src="/MogilchukNO.jpg"
+                  alt="Доктор"
+                  loading="lazy"
+                />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
@@ -201,14 +190,18 @@ function Therapy() {
                       <strong>Категорія: </strong>Вища
                     </p>
                     <p>
-                      <strong>Лікарський досвід: </strong>
-                      {getYearsExp(1989)}
+                      <strong>Досвід: </strong>з 1989 року
                     </p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
-                <img className={css.docPhoto} src="/doctor2.jpg" alt="Доктор" />
+                <img
+                  className={css.docPhoto}
+                  src="/GamaliyVM.jpg"
+                  alt="Доктор"
+                  loading="lazy"
+                />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
@@ -226,14 +219,18 @@ function Therapy() {
                       <strong>Категорія: </strong>Вища
                     </p>
                     <p>
-                      <strong>Лікарський досвід: </strong>
-                      {getYearsExp(1984)}
+                      <strong>Досвід: </strong>з 1984 року
                     </p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
-                <img className={css.docPhoto} src="/doctor1.jpg" alt="Доктор" />
+                <img
+                  className={css.docPhoto}
+                  src="/LobodaLV.jpg"
+                  alt="Доктор"
+                  loading="lazy"
+                />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
@@ -251,14 +248,18 @@ function Therapy() {
                       <strong>Категорія: </strong>Вища
                     </p>
                     <p>
-                      <strong>Лікарський досвід: </strong>
-                      {getYearsExp(2000)}
+                      <strong>Досвід: </strong>з 2000 року
                     </p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
-                <img className={css.docPhoto} src="/doctor2.jpg" alt="Доктор" />
+                <img
+                  className={css.docPhoto}
+                  src="/DidkivskaMO.jpg"
+                  alt="Доктор"
+                  loading="lazy"
+                />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
@@ -276,14 +277,18 @@ function Therapy() {
                       <strong>Категорія: </strong>Перша
                     </p>
                     <p>
-                      <strong>Лікарський досвід: </strong>
-                      {getYearsExp(2011)}
+                      <strong>Досвід: </strong>з 2011 року
                     </p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
-                <img className={css.docPhoto} src="/doctor1.jpg" alt="Доктор" />
+                <img
+                  className={css.docPhoto}
+                  src="/MaliyDO.jpg"
+                  alt="Доктор"
+                  loading="lazy"
+                />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
@@ -301,14 +306,18 @@ function Therapy() {
                       <strong>Категорія: </strong>Спеціаліст
                     </p>
                     <p>
-                      <strong>Лікарський досвід: </strong>
-                      {getYearsExp(2020)}
+                      <strong>Досвід: </strong>з 2020 року
                     </p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
-                <img className={css.docPhoto} src="/doctor2.jpg" alt="Доктор" />
+                <img
+                  className={css.docPhoto}
+                  src="/NoPhotoVert.jpg"
+                  alt="Доктор"
+                  loading="lazy"
+                />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
@@ -326,14 +335,18 @@ function Therapy() {
                       <strong>Категорія: </strong>Спеціаліст
                     </p>
                     <p>
-                      <strong>Лікарський досвід: </strong>
-                      {getYearsExp(2019)}
+                      <strong>Досвід: </strong>з 2019 року
                     </p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
-                <img className={css.docPhoto} src="/doctor1.jpg" alt="Доктор" />
+                <img
+                  className={css.docPhoto}
+                  src="/NoPhotoVert.jpg"
+                  alt="Доктор"
+                  loading="lazy"
+                />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
@@ -351,14 +364,18 @@ function Therapy() {
                       <strong>Категорія: </strong>Спеціаліст
                     </p>
                     <p>
-                      <strong>Лікарський досвід: </strong>
-                      {getYearsExp(2021)}
+                      <strong>Досвід: </strong>з 2021 року
                     </p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
-                <img className={css.docPhoto} src="/doctor2.jpg" alt="Доктор" />
+                <img
+                  className={css.docPhoto}
+                  src="/NoPhotoVert.jpg"
+                  alt="Доктор"
+                  loading="lazy"
+                />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
@@ -376,14 +393,18 @@ function Therapy() {
                       <strong>Категорія: </strong>Вища
                     </p>
                     <p>
-                      <strong>Лікарський досвід: </strong>
-                      {getYearsExp(2007)}
+                      <strong>Досвід: </strong>з 2007 року
                     </p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
-                <img className={css.docPhoto} src="/doctor1.jpg" alt="Доктор" />
+                <img
+                  className={css.docPhoto}
+                  src="/KovalchukMV.jpg"
+                  alt="Доктор"
+                  loading="lazy"
+                />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
@@ -401,14 +422,18 @@ function Therapy() {
                       <strong>Категорія: </strong>Спеціаліст
                     </p>
                     <p>
-                      <strong>Лікарський досвід: </strong>
-                      {getYearsExp(2019)}
+                      <strong>Досвід: </strong>з 2019 року
                     </p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
-                <img className={css.docPhoto} src="/doctor3.jpg" alt="Доктор" />
+                <img
+                  className={css.docPhoto}
+                  src="/NoPhotoVert.jpg"
+                  alt="No Photo Available"
+                  loading="lazy"
+                />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
@@ -426,8 +451,7 @@ function Therapy() {
                       <strong>Категорія: </strong>Вища
                     </p>
                     <p>
-                      <strong>Лікарський досвід: </strong>
-                      {getYearsExp(2000)}
+                      <strong>Досвід: </strong>з 2000 року
                     </p>
                   </div>
                 </div>
@@ -439,8 +463,9 @@ function Therapy() {
             <div className={css.headCard}>
               <img
                 className={css.headPhoto}
-                src="/headnurse.jpg"
+                src="/TkachukMB.jpg"
                 alt="Старша м/с"
+                loading="lazy"
               />
               <div className={css.headTextData}>
                 <div className={css.headName}>
@@ -459,79 +484,115 @@ function Therapy() {
                     <strong>Категорія: </strong>Вища
                   </p>
                   <p>
-                    <strong>Досвід: </strong>
-                    {getYearsExp(1993)}
+                    <strong>Досвід: </strong>з 1993 року
                   </p>
                 </div>
               </div>
             </div>
-            <div className={css.nursesCard}>
-              <img
-                className={css.nursesPhoto}
-                src="/nurses.jpg"
-                alt="Медсестри"
-              />
-              <div className={css.nursesTextData}>
-                <p>
-                  <strong>Омельченко Світлана Миколаївна</strong>, <br />
-                  медична сестра вищої категорії
-                </p>
-                <br />
-                <p>
-                  <strong>Перцова Діана Олександрівна</strong>, <br />
-                  медична сестра
-                </p>
-                <br />
-                <p>
-                  <strong>Веремієць Людмила Миколаївна</strong>, <br />
-                  медична сестра
-                </p>
+            <div className={css.sectionGridTwo}>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/Ms-PavlenkoGS.jpg"
+                  alt="Медсестри"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Павленко Галина Степанівна</strong>, <br />
+                    медична сестра вищої категорії
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className={css.nursesCardRev}>
-              <img
-                className={css.nursesPhoto}
-                src="/nurses.jpg"
-                alt="Медсестри"
-              />
-              <div className={css.nursesTextData}>
-                <p>
-                  <strong>Павленко Галина Степанівна</strong>, <br />
-                  медична сестра вищої категорії
-                </p>
-                <br />
-                <p>
-                  <strong>Новак Анна Василівна</strong>, <br />
-                  медична сестра вищої категорії
-                </p>
-                <br />
-                <p>
-                  <strong>Домашевкська Світлана Анатоліївна</strong>, <br />
-                  медична сестра вищої категорії
-                </p>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/Ms-Omelchenko.jpg"
+                  alt="Медсестри"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Омельченко Світлана Миколаївна</strong>, <br />
+                    медична сестра вищої категорії
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className={css.nursesCard}>
-              <img
-                className={css.nursesPhoto}
-                src="/nurses.jpg"
-                alt="Медсестри"
-              />
-              <div className={css.nursesTextData}>
-                <p>
-                  <strong>Приседько Ольга Андріївна</strong>, <br />
-                  медична сестра вищої категорії
-                </p>
-                <br />
-                <p>
-                  <strong>Стеценко Юлія Борисівна</strong>, <br />
-                  медична сестра
-                </p>
-                <br />
-                <p>
-                  <strong>Бізіля Саміна Зафарівна</strong>, <br />
-                  медична сестра
-                </p>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/Ms-Novak-Percova.jpg"
+                  alt="Медсестри"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Новак Анна Василівна</strong>, <br />
+                    медична сестра вищої категорії
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Перцова Діана Олександрівна</strong>, <br />
+                    медична сестра
+                  </p>
+                </div>
+              </div>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/Ms-Prysedko-Bizilya.jpg"
+                  alt="Медсестри"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Приседько Ольга Андріївна</strong>, <br />
+                    медична сестра вищої категорії
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Бізіля Саміна Зафарівна</strong>, <br />
+                    медична сестра
+                  </p>
+                </div>
+              </div>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/Ms-Prysedko-Domashevska.jpg"
+                  alt="Медсестри"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Приседько Ольга Андріївна</strong>, <br />
+                    медична сестра вищої категорії
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Домашевкська Світлана Анатоліївна</strong>, <br />
+                    медична сестра вищої категорії
+                  </p>
+                </div>
+              </div>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/NoPhotoHor.jpg"
+                  alt="Медсестри"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Веремієць Людмила Миколаївна</strong>, <br />
+                    медична сестра
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Стеценко Юлія Борисівна</strong>, <br />
+                    медична сестра
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -540,8 +601,9 @@ function Therapy() {
             <div className={css.headCard}>
               <img
                 className={css.headPhoto}
-                src="/nurseboss.jpg"
+                src="/OsmachkinaLB.jpg"
                 alt="Сестра-господарка"
+                loading="lazy"
               />
               <div className={css.headTextData}>
                 <div className={css.headName}>
@@ -557,243 +619,248 @@ function Therapy() {
                   <strong>Посада: </strong>Працівник з господарської діяльності
                 </p>
                 <p>
-                  <strong>Досвід: </strong>
-                  {getYearsExp(1996)}
+                  <strong>Досвід: </strong>з 1996 року
                 </p>
               </div>
             </div>
-            <div className={css.nursesCard}>
-              <img
-                className={css.nursesPhoto}
-                src="/nurses2.jpg"
-                alt="Санітарки"
-              />
-              <div className={css.nursesTextData}>
-                <p>
-                  <strong>Шестакова Валентина Григорівна</strong>, <br />
-                  молодша медична сестра
-                </p>
-                <p>
-                  <strong>Полонська Ніна Іванівна</strong>, <br />
-                  молодша медична сестра
-                </p>
-                <p>
-                  <strong>Обруч Ірина Миколаївна</strong>, <br />
-                  молодша медична сестра
-                </p>
-                <p>
-                  <strong>Бабич Ольга Петрівна</strong>, <br />
-                  молодша медична сестра
-                </p>
-                <p>
-                  <strong>Тригубенко Ольга Петрівна</strong>, <br />
-                  молодша медична сестра
-                </p>
+            <div className={css.sectionGridTwo}>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/Sn-BabychVM.jpg"
+                  alt="Санітарки"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Бабич Віра Михайлівна</strong>, <br />
+                    молодша медична сестра
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className={css.nursesCardRev}>
-              <img
-                className={css.nursesPhoto}
-                src="/nurses2.jpg"
-                alt="Санітарки"
-              />
-              <div className={css.nursesTextData}>
-                <p>
-                  <strong>Рощук Валентина Петрівна</strong>, <br />
-                  молодша медична сестра
-                </p>
-                <br />
-                <p>
-                  <strong>Романенко Ольга Миколаївна</strong>, <br />
-                  молодша медична сестра
-                </p>
-                <br />
-                <p>
-                  <strong>Масленко Ніна Іванівна</strong>, <br />
-                  молодша медична сестра
-                </p>
-                <br />
-                <p>
-                  <strong>Гусак Людмила Павлівна</strong>, <br />
-                  молодша медична сестра
-                </p>
-                <br />
-                <p>
-                  <strong>Бабич Віра Михайлівна</strong>, <br />
-                  молодша медична сестра
-                </p>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/Sn-RoschukV.jpg"
+                  alt="Санітарки"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Рощук Валентина Петрівна</strong>, <br />
+                    молодша медична сестра
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className={css.nursesCard}>
-              <img
-                className={css.nursesPhoto}
-                src="/barmaids.jpg"
-                alt="Санітарки-буфетниці"
-              />
-              <div className={css.nursesTextData}>
-                <p>
-                  <strong>Ващук Світлана Анатоліївна</strong>, <br />
-                  молодша медична сестра - буфетниця
-                </p>
-                <br />
-                <p>
-                  <strong>Калюжна Любов Георгіївна</strong>, <br />
-                  молодша медична сестра - буфетниця
-                </p>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/Sn-Polonska-Obrush.jpg"
+                  alt="Санітарки-буфетниці"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Полонська Ніна Іванівна</strong>, <br />
+                    молодша медична сестра
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Обруч Ірина Миколаївна</strong>, <br />
+                    молодша медична сестра
+                  </p>
+                </div>
+              </div>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/NoPhotoHor.jpg"
+                  alt="Санітарки-буфетниці"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Шестакова Валентина Григорівна</strong>, <br />
+                    молодша медична сестра
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Бабич Ольга Петрівна</strong>, <br />
+                    молодша медична сестра
+                  </p>
+                </div>
+              </div>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/NoPhotoHor.jpg"
+                  alt="Санітарки-буфетниці"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Тригубенко Ольга Петрівна</strong>, <br />
+                    молодша медична сестра
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Романенко Ольга Миколаївна</strong>, <br />
+                    молодша медична сестра
+                  </p>
+                </div>
+              </div>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/NoPhotoHor.jpg"
+                  alt="Санітарки-буфетниці"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Масленко Ніна Іванівна</strong>, <br />
+                    молодша медична сестра
+                  </p>
+                  <br />
+                  <p>
+                    <strong>Гусак Людмила Павлівна</strong>, <br />
+                    молодша медична сестра
+                  </p>
+                </div>
+              </div>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/Sn-KaluzhnaLG.jpg"
+                  alt="Санітарки-буфетниці"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Калюжна Любов Георгіївна</strong>, <br />
+                    молодша медична сестра - буфетниця
+                  </p>
+                </div>
+              </div>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/public/NoPhotoHor.jpg"
+                  alt="Санітарки-буфетниці"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>
+                    <strong>Ващук Світлана Анатоліївна</strong>, <br />
+                    молодша медична сестра - буфетниця
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <div className={css.subsection}>
-            <h4 className={css.subsectionName}>Відділення зсередини</h4>
-            <div className={css.interiorCard}>
-              <img
-                className={css.interiorPhoto}
-                src="/dep1.jpg"
-                alt="Відділення"
-              />
-              <div className={css.textInterior}>
-                <p className={css.textIndent}>
-                  Коридори та приміщення відділення відзначаються зразковою
-                  чистотою та порядком, що забезпечуються злагодженою роботою
-                  висококваліфікованого персоналу. Завдяки чіткій організації і
-                  професійному управлінню керівництва, підтримується бездоганна
-                  гігієна, що створює комфортні та безпечні умови як для
-                  пацієнтів, так і для медичного персоналу.
-                </p>
+            <h4 className={css.subsectionName}>Фотоколлаж</h4>
+            <div className={css.sectionGridTwo}>
+              <div className={css.interiorCard}>
+                <img
+                  className={css.interiorPhoto}
+                  src="/Collage-01.jpg"
+                  alt="Відділення"
+                  loading="lazy"
+                />
+                <div className={css.textInterior}>
+                  <p>Робочий пульс медицини</p>
+                </div>
               </div>
-            </div>
-            <div className={css.interiorCardRev}>
-              <img
-                className={css.interiorPhoto}
-                src="/dep2.jpg"
-                alt="Відділення"
-              />
-              <div className={css.textInterior}>
-                <p className={css.textIndent}>
-                  Палати відповідають сучасним стандартам, оснащені всім
-                  необхідним для комфортного перебування пацієнтів. Вони добре
-                  провітрюються, регулярно очищуються і підтримуються в
-                  ідеальному стані відповідно до чинних санітарно-гігієнічних
-                  норм. Такий підхід забезпечує чистоту, безпеку та сприятливі
-                  умови для лікування й відновлення пацієнтів.
-                </p>
+              <div className={css.interiorCard}>
+                <img
+                  className={css.interiorPhoto}
+                  src="/Collage-02.jpg"
+                  alt="Відділення"
+                  loading="lazy"
+                />
+                <div className={css.textInterior}>
+                  <p>Берегині здоров&apos;я</p>
+                </div>
               </div>
-            </div>
-            <div className={css.interiorCard}>
-              <img
-                className={css.interiorPhoto}
-                src="/dep3.jpg"
-                alt="Відділення"
-              />
-              <div className={css.textInterior}>
-                <p className={css.textIndent}>
-                  Харчування пацієнтів організовано безпосередньо у палатах, де
-                  кожен отримує страви, підібрані за індивідуальним замовленням
-                  відповідно до призначень лікаря. Меню складається з
-                  урахуванням дієтичних показань і медичних потреб пацієнта,
-                  забезпечуючи максимально сприятливі умови для відновлення
-                  здоров’я.
-                </p>
+              <div className={css.interiorCard}>
+                <img
+                  className={css.interiorPhoto}
+                  src="/Collage-03.jpg"
+                  alt="Відділення"
+                  loading="lazy"
+                />
+                <div className={css.textInterior}>
+                  <p>Наступність поколінь</p>
+                </div>
               </div>
-            </div>
-            <div className={css.interiorCardRev}>
-              <img
-                className={css.interiorPhoto}
-                src="/dep4.jpg"
-                alt="Відділення"
-              />
-              <div className={css.textInterior}>
-                <p className={css.textIndent}>
-                  Лікування та проведення ін’єкцій організовані з максимальною
-                  зручністю для пацієнтів і здійснюються безпосередньо в
-                  палатах. Такий підхід забезпечує комфорт, знижує стрес під час
-                  процедур і сприяє швидшому відновленню. Увага персоналу до
-                  потреб кожного пацієнта гарантує якість та ефективність
-                  медичних послуг.
-                </p>
+              <div className={css.interiorCard}>
+                <img
+                  className={css.interiorPhoto}
+                  src="/Collage-04.jpg"
+                  alt="Відділення"
+                  loading="lazy"
+                />
+                <div className={css.textInterior}>
+                  <p>Молодість посміхається</p>
+                </div>
               </div>
-            </div>
-            <div className={css.interiorCard}>
-              <img
-                className={css.interiorPhoto}
-                src="/dep5.jpg"
-                alt="Відділення"
-              />
-              <div className={css.textInterior}>
-                <p className={css.textIndent}>
-                  Сучасні методи лікування, які застосовуються у відділенні,
-                  спрямовані на усунення або мінімізацію причин, що можуть
-                  викликати хропіння у пацієнтів. Завдяки комплексному підходу,
-                  який включає медикаментозну терапію, корекцію положення тіла
-                  під час сну, а також ефективне лікування супутніх захворювань
-                  (наприклад, проблем із дихальними шляхами), досягається висока
-                  якість відпочинку пацієнтів та комфорт для всіх, хто перебуває
-                  у відділенні.
-                </p>
+              <div className={css.interiorCard}>
+                <img
+                  className={css.interiorPhoto}
+                  src="/Collage-05.jpg"
+                  alt="Відділення"
+                  loading="lazy"
+                />
+                <div className={css.textInterior}>
+                  <p>Тандем турботи і здоров&apos;я</p>
+                </div>
               </div>
-            </div>
-            <div className={css.interiorCardRev}>
-              <img
-                className={css.interiorPhoto}
-                src="/dep6.jpg"
-                alt="Відділення"
-              />
-              <div className={css.textInterior}>
-                <p className={css.textIndent}>
-                  Виписані пацієнти щиро висловлюють подяку своїм лікарям за
-                  професіоналізм, турботу і врятоване здоров’я. Така вдячність
-                  створює атмосферу взаємної радості, адже лікарі, які
-                  присвятили свої зусилля відновленню здоров’я пацієнта, також
-                  відчувають задоволення від досягнутого результату та щастя від
-                  вдалого лікування.
-                </p>
+              <div className={css.interiorCard}>
+                <img
+                  className={css.interiorPhoto}
+                  src="/Collage-06.jpg"
+                  alt="Відділення"
+                  loading="lazy"
+                />
+                <div className={css.textInterior}>
+                  <p>Терапевтична зміна з лідером</p>
+                </div>
+              </div>
+              <div className={css.interiorCard}>
+                <img
+                  className={css.interiorPhoto}
+                  src="/Collage-07.jpg"
+                  alt="Відділення"
+                  loading="lazy"
+                />
+                <div className={css.textInterior}>
+                  <p>Діагностика з увагою до кожного</p>
+                </div>
+              </div>
+              <div className={css.interiorCard}>
+                <img
+                  className={css.interiorPhoto}
+                  src="/Collage-08.jpg"
+                  alt="Відділення"
+                  loading="lazy"
+                />
+                <div className={css.textInterior}>
+                  <p>І знову новий пацієнт</p>
+                </div>
               </div>
             </div>
             <div className={css.interiorCard}>
               <img
                 className={css.interiorPhoto}
-                src="/dep7.jpg"
+                src="/Collage-09.jpg"
                 alt="Відділення"
+                loading="lazy"
               />
               <div className={css.textInterior}>
-                <p className={css.textIndent}>
-                  Керівництво відділення демонструє стабільно високий рівень
-                  організації роботи, ефективно реагуючи на будь-які скарги
-                  пацієнтів. Проблеми вирішуються оперативно та професійно, що
-                  сприяє підвищенню довіри до медичного персоналу. Регулярні
-                  перевірки департаменту охорони здоров’я проходять без
-                  ускладнень, завдяки чіткій відповідності стандартам і нормам,
-                  а також завчасній підготовці. Такий підхід забезпечує
-                  стабільність у роботі відділення і підтверджує його високий
-                  професійний рівень.
-                </p>
-              </div>
-            </div>
-            <div className={css.interiorCardRev}>
-              <img
-                className={css.interiorPhoto}
-                src="/dep8.jpg"
-                alt="Відділення"
-              />
-              <div className={css.textInterior}>
-                <p className={css.textIndent}>
-                  Професійний і дружній колектив відділення щодня надає
-                  високоякісну допомогу пацієнтам, навіть у надзвичайно складних
-                  умовах. Незважаючи на постійний потік тяжкохворих, виснажливі
-                  чергування, виклики на невідкладні стани, рутинні
-                  адміністративні обов&apos;язки, скарги окремих пацієнтів і
-                  регулярні перевірки керівництва, вони продовжують виконувати
-                  свою роботу з посмішкою.
-                </p>
-                <p className={css.textIndent}>
-                  Усе це — в реаліях війни, коли навантаження зростає, а ресурси
-                  стають обмеженішими. Проте їхня відданість справі залишається
-                  незмінною.
-                </p>
-                <p className={css.textIndent}>
-                  Подякуйте лікарям. Вони дарують людям надію, здоров&apos;я та
-                  життя. І пам’ятайте: найкраща подяка — це ваша щира вдячність,
-                  а не коробка цукерок.
+                <p>
+                  Терапевтичне відділення ЛШМД. Колектив турботи і
+                  професіоналізму. Дякуємо.
                 </p>
               </div>
             </div>

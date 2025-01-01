@@ -3,15 +3,10 @@
 }
 
 .container {
-  max-width: 100%;
+  width: 100%;
 
-  padding: 0 15px;
+  padding: 0 16px;
   margin: 20px auto 20px auto;
-
-  /* background-color: bisque;
-
-  border: #2752ae solid 1px;
-  border-radius: 20px; */
 }
 
 h2 {
@@ -30,7 +25,6 @@ p {
 
 .pageHeader {
   padding-bottom: 32px;
-  margin-bottom: 64px;
 
   text-align: center;
   border-bottom: #2752ae solid 2px;
@@ -42,7 +36,7 @@ p {
 }
 
 .sectionName {
-  margin-bottom: 16px;
+  text-align: left;
 }
 
 .subsection {
@@ -50,30 +44,59 @@ p {
 }
 
 .subsectionName {
-  margin-bottom: 16px;
   text-align: center;
 }
 
 .textIndent {
-  text-indent: 20px;
+  text-indent: 32px;
+}
+
+.tel {
+  text-decoration: none;
+}
+
+.sectionGrid,
+.sectionGridTwo {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.headCard,
+.docCard,
+.nursesCard,
+.interiorCard {
+  width: 100%;
+  border: #2752ae solid 1px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(39, 82, 174, 0.2);
+  box-shadow: 4px 4px 8px rgba(39, 82, 174, 0.8);
 }
 
 .headCard {
-  max-width: 100%;
+  margin-bottom: 32px;
 }
 
 .headPhoto,
-.docPhoto {
-  max-width: 100%;
+.docPhoto,
+.nursesPhoto,
+.interiorPhoto {
+  width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 .headTextData,
-.docTextData,
+.docTextData {
+  padding: 16px;
+}
+
 .nursesTextData,
 .textInterior {
-  max-width: 100%;
   padding: 16px;
+  text-align: center;
 }
 
 .headName,
@@ -82,63 +105,9 @@ p {
   margin-bottom: 8px;
 }
 
-.headCard,
-.docCard,
-.nursesCard,
-.nursesCardRev,
-.interiorCard,
-.interiorCardRev {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 16px;
-  border: #2752ae solid 1px;
-  border-radius: 10px;
-  overflow: hidden;
-  background: rgba(39, 82, 174, 0.1);
-  box-shadow: 4px 4px 8px rgba(39, 82, 174, 0.5);
-}
-
-.tel {
-  text-decoration: none;
-}
-
 @media (min-width: 721px) and (max-width: 960px) {
   .container {
-    width: 720px;
-  }
-
-  .headCard {
-    flex-direction: column;
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .sectionGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 3 столбца одинаковой ширины */
-    gap: 16px; /* Зазор между элементами */
-  }
-
-  .nursesCard,
-  .interiorCard {
-    flex-direction: row;
-    width: fit-content;
-    margin-right: auto;
-  }
-
-  .nursesCardRev,
-  .interiorCardRev {
-    flex-direction: row-reverse;
-    width: fit-content;
-    margin-left: auto;
-  }
-
-  .nursesPhoto,
-  .interiorPhoto {
-    width: 50%;
-    height: auto;
+    max-width: 720px;
   }
 
   h2 {
@@ -153,43 +122,25 @@ p {
   p {
     font-size: 18px;
   }
+
+  .headCard {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sectionGrid,
+  .sectionGridTwo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+  }
 }
 
 @media (min-width: 961px) and (max-width: 1200px) {
   .container {
     width: 960px;
-  }
-
-  .nursesCard,
-  .interiorCard {
-    flex-direction: row;
-    width: fit-content;
-    margin-right: auto;
-  }
-
-  .nursesCardRev,
-  .interiorCardRev {
-    flex-direction: row-reverse;
-    width: fit-content;
-    margin-left: auto;
-  }
-
-  .nursesPhoto,
-  .interiorPhoto {
-    width: 50%;
-  }
-
-  .headCard {
-    flex-direction: column;
-    width: 40%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .sectionGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 столбца одинаковой ширины */
-    gap: 16px; /* Зазор между элементами */
   }
 
   h2 {
@@ -204,48 +155,32 @@ p {
   p {
     font-size: 20px;
   }
+
+  .headCard {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sectionGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .sectionGridTwo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+  }
 }
 
 @media (min-width: 1201px) {
   .container {
     width: 1200px;
     margin: 20px auto 20px auto;
-  }
-
-  .headCard {
-    flex-direction: column;
-    width: 40%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .headName {
-    text-align: center;
-  }
-
-  .sectionGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 столбца одинаковой ширины */
-    gap: 16px; /* Зазор между элементами */
-  }
-
-  .nursesCard,
-  .interiorCard {
-    flex-direction: row;
-    width: 100%;
-    margin-right: auto;
-  }
-
-  .nursesCardRev,
-  .interiorCardRev {
-    flex-direction: row-reverse;
-    width: 100%;
-    margin-left: auto;
-  }
-
-  .nursesPhoto,
-  .interiorPhoto {
-    width: 50%;
   }
 
   h2 {
@@ -259,5 +194,25 @@ p {
   }
   p {
     font-size: 22px;
+  }
+
+  .headCard {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sectionGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .sectionGridTwo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
   }
 }
