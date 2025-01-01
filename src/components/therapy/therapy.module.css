@@ -31,16 +31,13 @@ p {
 }
 
 .section {
-  margin-bottom: 64px;
+  margin-bottom: 32px;
+  padding-bottom: 32px;
   border-bottom: #2752ae solid 1px;
 }
 
 .sectionName {
   text-align: left;
-}
-
-.subsection {
-  margin-bottom: 32px;
 }
 
 .subsectionName {
