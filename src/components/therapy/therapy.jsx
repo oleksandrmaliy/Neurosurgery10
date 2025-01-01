@@ -493,7 +493,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/Ms-PavlenkoGS.jpg"
+                  src="/Ms-PavlenkoGS.jpg"
                   alt="Медсестри"
                   loading="lazy"
                 />
@@ -507,7 +507,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/Ms-Omelchenko.jpg"
+                  src="/Ms-Omelchenko.jpg"
                   alt="Медсестри"
                   loading="lazy"
                 />
@@ -521,7 +521,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/Ms-Novak-Percova.jpg"
+                  src="/Ms-Novak-Percova.jpg"
                   alt="Медсестри"
                   loading="lazy"
                 />
@@ -540,7 +540,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/Ms-Prysedko-Bizilya.jpg"
+                  src="/Ms-Prysedko-Bizilya.jpg"
                   alt="Медсестри"
                   loading="lazy"
                 />
@@ -559,7 +559,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/Ms-Prysedko-Domashevska.jpg"
+                  src="/Ms-Prysedko-Domashevska.jpg"
                   alt="Медсестри"
                   loading="lazy"
                 />
@@ -578,7 +578,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/NoPhotoHor.jpg"
+                  src="/NoPhotoHor.jpg"
                   alt="Медсестри"
                   loading="lazy"
                 />
@@ -627,7 +627,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/Sn-BabychVM.jpg"
+                  src="/Sn-BabychVM.jpg"
                   alt="Санітарки"
                   loading="lazy"
                 />
@@ -641,7 +641,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/Sn-RoschukV.jpg"
+                  src="/Sn-RoschukV.jpg"
                   alt="Санітарки"
                   loading="lazy"
                 />
@@ -655,7 +655,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/Sn-Polonska-Obrush.jpg"
+                  src="/Sn-Polonska-Obrush.jpg"
                   alt="Санітарки-буфетниці"
                   loading="lazy"
                 />
@@ -674,7 +674,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/NoPhotoHor.jpg"
+                  src="/NoPhotoHor.jpg"
                   alt="Санітарки-буфетниці"
                   loading="lazy"
                 />
@@ -693,7 +693,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/NoPhotoHor.jpg"
+                  src="/NoPhotoHor.jpg"
                   alt="Санітарки-буфетниці"
                   loading="lazy"
                 />
@@ -712,7 +712,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/NoPhotoHor.jpg"
+                  src="/NoPhotoHor.jpg"
                   alt="Санітарки-буфетниці"
                   loading="lazy"
                 />
@@ -731,7 +731,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/Sn-KaluzhnaLG.jpg"
+                  src="/Sn-KaluzhnaLG.jpg"
                   alt="Санітарки-буфетниці"
                   loading="lazy"
                 />
@@ -745,7 +745,7 @@ function Therapy() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/public/NoPhotoHor.jpg"
+                  src="/NoPhotoHor.jpg"
                   alt="Санітарки-буфетниці"
                   loading="lazy"
                 />
