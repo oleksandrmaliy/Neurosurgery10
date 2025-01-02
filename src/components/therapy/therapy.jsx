@@ -10,13 +10,106 @@ function Therapy() {
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Керівництво відділення:</h4>
             <p className={css.textIndent}>
-              Відділення очолює Лазарєва Оксана Василівна, лікар-терапевт із
-              багаторічним досвідом роботи. Під її керівництвом забезпечується
-              високий рівень організації медичної допомоги, яка відповідає
-              сучасним стандартам. Завдяки професіоналізму та лідерським якостям
-              завідувачки, відділення успішно справляється з викликами,
-              пов’язаними з наданням невідкладної допомоги пацієнтам у критичних
-              станах.
+              Відділення очолює <strong>Лазарєва Оксана Василівна</strong>,
+              лікар-терапевт із багаторічним досвідом роботи. Під її
+              керівництвом забезпечується високий рівень організації медичної
+              допомоги, яка відповідає сучасним стандартам. Завдяки
+              професіоналізму та лідерським якостям завідуючої, відділення
+              успішно справляється з викликами, пов’язаними з наданням
+              невідкладної допомоги пацієнтам у критичних станах.
+            </p>
+          </div>
+          <div className={css.subsection}>
+            <h4 className={css.subsectionName}>Наші лікарі</h4>
+            <p className={css.textIndent}>
+              Терапевтичне відділення ЛШМД Києва пишається командою
+              висококваліфікованих лікарів із багаторічним досвідом роботи. У
+              нашій команді є як молоді фахівці, так і досвідчені лікарі, чий
+              професійний шлях у медицині триває вже не одне десятиліття. Кожен
+              із наших лікарів постійно вдосконалює свої знання та навички, щоб
+              відповідати сучасним стандартам медичної допомоги.
+            </p>
+            <p className={css.textIndent}>
+              Дізнайтеся більше про кожного з наших лікарів у списку нижче:
+            </p>
+            <br />
+            <p className={css.textIndent}>
+              <strong> Могільчук Надія Олександрівна</strong>, лікар-терапевт
+              вищої категорії, лікарський досвід з 1989 року
+            </p>
+            <p className={css.textIndent}>
+              <strong> Гамалій Валентина Михайлівна</strong>, лікар-терапевт
+              вищої категорії, лікарський досвід з 1984 року
+            </p>
+            <p className={css.textIndent}>
+              <strong> Лобода Леся Володимирівна</strong>, лікар-терапевт вищої
+              категорії, лікарський досвід з 2000 року
+            </p>
+            <p className={css.textIndent}>
+              <strong> Дідківська Марта Орестівна</strong>, лікар-терапевт
+              першої категорії, лікарський досвід з 2011 року
+            </p>
+            <p className={css.textIndent}>
+              <strong> Малій Дар’я Олександрівна</strong>, лікар-терапевт,
+              лікарський досвід з 2020 року
+            </p>
+            <p className={css.textIndent}>
+              <strong> Барташевська Олена Вікторівна</strong>, лікар-терапевт,
+              лікарський досвід з 2019 року
+            </p>
+            <p className={css.textIndent}>
+              <strong> Сіденко Анастасія Михайлівна</strong>, лікар-терапевт,
+              лікарський досвід з 2021 року
+            </p>
+            <p className={css.textIndent}>
+              <strong>Гралюк Марина Іванівна</strong>, лікар-терапевт вищої
+              категорії, лікарський досвід з 2007 року
+            </p>
+            <p className={css.textIndent}>
+              <strong> Ковальчук Марія Володимирівна</strong>, лікар-невролог,
+              лікарський досвід з 2019 року
+            </p>
+            <p className={css.textIndent}>
+              <strong> Кропива Володимир Васильович</strong>, лікар-невролог
+              вищої категорії, лікарський досвід з 2000 року
+            </p>
+          </div>
+          <div className={css.subsection}>
+            <h4 className={css.subsectionName}>Команда медсестер</h4>
+            <p className={css.textIndent}>
+              Терапевтичне відділення КМКЛШМД – це не лише висококваліфіковані
+              лікарі, але й згуртована команда турботливих медичних сестер та
+              молодших медсестер, які щодня докладають зусиль, щоб забезпечити
+              комфорт і якісну допомогу нашим пацієнтам.
+            </p>
+            <p className={css.textIndent}>Серед наших професіоналів:</p>
+            <p className={css.textIndent}>
+              <strong> Ткачук Марія Борисівна</strong>, старша медична сестра
+              вищої категорії, працює в медицині з 1993 року. Вона не лише надає
+              кваліфіковану медичну допомогу, а й координує роботу медсестер
+              відділення, забезпечуючи високий рівень обслуговування пацієнтів.
+            </p>
+            <p className={css.textIndent}>
+              <strong>Осьмачкіна Людмила Борисівна</strong>, працівник з
+              господарської діяльності, працює у медицині з 1996 року. Вона
+              забезпечує належну організацію та підтримку роботи молодших
+              медичних сестер, гарантує злагодженість процесів і належний рівень
+              обслуговування.
+            </p>
+            <p className={css.textIndent}>
+              Наші медичні сестри – це справжні професіонали, які виконують
+              широкий спектр завдань: від надання медичних процедур до
+              моніторингу стану пацієнтів. Вони завжди поруч, щоб підтримати,
+              відповісти на запитання або просто підбадьорити добрим словом.
+              Їхня уважність і турбота створюють атмосферу довіри та впевненості
+              у відділенні. Молодші медичні сестри (санітарки) забезпечують
+              чистоту у відділенні, супроводжують пацієнтів на процедури,
+              обстеження та консультації, завжди готові допомогти у потрібний
+              момент.
+            </p>
+            <p className={css.textIndent}>
+              Ми пишаємося нашою командою, яка з теплом і турботою виконує свою
+              роботу, забезпечуючи комфорт та допомогу кожному пацієнту.
             </p>
           </div>
           <div className={css.subsection}>
@@ -111,6 +204,7 @@ function Therapy() {
               швидкою, точною та ефективною.
             </p>
           </div>
+
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Контактні телефони:</h4>
             <p>
@@ -149,15 +243,15 @@ function Therapy() {
                 </div>
                 <div className={css.headData}>
                   <p>
-                    <strong>Посада: </strong>Завідуюча терапевтичним
-                    відділенням, лікар-терапевт
+                    {/* <strong>Посада: </strong> */}
+                    Завідуюча терапевтичним відділенням, лікар-терапевт
                   </p>
-                  <p>
+                  {/* <p>
                     <strong>Категорія: </strong>Друга
                   </p>
                   <p>
                     <strong>Досвід: </strong>з 2013 року
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -183,14 +277,15 @@ function Therapy() {
                   </div>
                   <div className={css.docData}>
                     <p>
-                      <strong>Посада: </strong>Лікар-терапевт
+                      {/* <strong>Посада: </strong> */}
+                      Лікар-терапевт
                     </p>
-                    <p>
+                    {/* <p>
                       <strong>Категорія: </strong>Вища
                     </p>
                     <p>
                       <strong>Досвід: </strong>з 1989 року
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -211,15 +306,7 @@ function Therapy() {
                     </p>
                   </div>
                   <div className={css.docData}>
-                    <p>
-                      <strong>Посада: </strong>Лікар-терапевт
-                    </p>
-                    <p>
-                      <strong>Категорія: </strong>Вища
-                    </p>
-                    <p>
-                      <strong>Досвід: </strong>з 1984 року
-                    </p>
+                    <p>Лікар-терапевт</p>
                   </div>
                 </div>
               </div>
@@ -240,15 +327,7 @@ function Therapy() {
                     </p>
                   </div>
                   <div className={css.docData}>
-                    <p>
-                      <strong>Посада: </strong>Лікар-терапевт
-                    </p>
-                    <p>
-                      <strong>Категорія: </strong>Вища
-                    </p>
-                    <p>
-                      <strong>Досвід: </strong>з 2000 року
-                    </p>
+                    <p>Лікар-терапевт</p>
                   </div>
                 </div>
               </div>
@@ -269,15 +348,7 @@ function Therapy() {
                     </p>
                   </div>
                   <div className={css.docData}>
-                    <p>
-                      <strong>Посада: </strong>Лікар-терапевт
-                    </p>
-                    <p>
-                      <strong>Категорія: </strong>Перша
-                    </p>
-                    <p>
-                      <strong>Досвід: </strong>з 2011 року
-                    </p>
+                    <p>Лікар-терапевт</p>
                   </div>
                 </div>
               </div>
@@ -298,19 +369,11 @@ function Therapy() {
                     </p>
                   </div>
                   <div className={css.docData}>
-                    <p>
-                      <strong>Посада: </strong>Лікар-терапевт
-                    </p>
-                    <p>
-                      <strong>Категорія: </strong>Спеціаліст
-                    </p>
-                    <p>
-                      <strong>Досвід: </strong>з 2020 року
-                    </p>
+                    <p>Лікар-терапевт</p>
                   </div>
                 </div>
               </div>
-              <div className={css.docCard}>
+              {/* <div className={css.docCard}>
                 <img
                   className={css.docPhoto}
                   src="/NoPhotoVert.jpg"
@@ -396,7 +459,7 @@ function Therapy() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className={css.docCard}>
                 <img
                   className={css.docPhoto}
@@ -414,19 +477,11 @@ function Therapy() {
                     </p>
                   </div>
                   <div className={css.docData}>
-                    <p>
-                      <strong>Посада: </strong>Лікар-невролог
-                    </p>
-                    <p>
-                      <strong>Категорія: </strong>Спеціаліст
-                    </p>
-                    <p>
-                      <strong>Досвід: </strong>з 2019 року
-                    </p>
+                    <p>Лікар-невролог</p>
                   </div>
                 </div>
               </div>
-              <div className={css.docCard}>
+              {/* <div className={css.docCard}>
                 <img
                   className={css.docPhoto}
                   src="/NoPhotoVert.jpg"
@@ -454,7 +509,7 @@ function Therapy() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className={css.subsection}>
@@ -476,15 +531,7 @@ function Therapy() {
                   </p>
                 </div>
                 <div className={css.headData}>
-                  <p>
-                    <strong>Посада: </strong>Старша медична сестра
-                  </p>
-                  <p>
-                    <strong>Категорія: </strong>Вища
-                  </p>
-                  <p>
-                    <strong>Досвід: </strong>з 1993 року
-                  </p>
+                  <p>Старша медична сестра</p>
                 </div>
               </div>
             </div>
@@ -614,12 +661,7 @@ function Therapy() {
                   </p>
                 </div>
                 <div className={css.headData}></div>
-                <p>
-                  <strong>Посада: </strong>Працівник з господарської діяльності
-                </p>
-                <p>
-                  <strong>Досвід: </strong>з 1996 року
-                </p>
+                <p>Працівник з господарської діяльності</p>
               </div>
             </div>
             <div className={css.sectionGridTwo}>
@@ -670,7 +712,7 @@ function Therapy() {
                   </p>
                 </div>
               </div>
-              <div className={css.nursesCard}>
+              {/* <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
                   src="/NoPhotoHor.jpg"
@@ -688,8 +730,8 @@ function Therapy() {
                     молодша медична сестра
                   </p>
                 </div>
-              </div>
-              <div className={css.nursesCard}>
+              </div> */}
+              {/* <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
                   src="/NoPhotoHor.jpg"
@@ -707,8 +749,8 @@ function Therapy() {
                     молодша медична сестра
                   </p>
                 </div>
-              </div>
-              <div className={css.nursesCard}>
+              </div> */}
+              {/* <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
                   src="/NoPhotoHor.jpg"
@@ -726,7 +768,7 @@ function Therapy() {
                     молодша медична сестра
                   </p>
                 </div>
-              </div>
+              </div> */}
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
@@ -741,7 +783,7 @@ function Therapy() {
                   </p>
                 </div>
               </div>
-              <div className={css.nursesCard}>
+              {/* <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
                   src="/NoPhotoHor.jpg"
@@ -754,7 +796,7 @@ function Therapy() {
                     молодша медична сестра - буфетниця
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className={css.subsection}>
