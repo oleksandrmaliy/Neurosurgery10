@@ -3,7 +3,6 @@ import css from './therapy.module.css';
 function Therapy() {
   return (
     <>
-      <img className={css.menu} src="/menu.jpg" alt="menu" />
       <div className={css.container}>
         <h2 className={css.pageHeader}>Терапевтичне відділення</h2>
         <div className={css.section}>
