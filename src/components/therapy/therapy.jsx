@@ -134,7 +134,7 @@ function Therapy() {
             <div className={css.headCard}>
               <img
                 className={css.headPhoto}
-                src="/LazarevaOV-2.jpg"
+                src="/LazarevaOV.jpg"
                 alt="Завідуюча відділенням"
                 loading="lazy"
               />
