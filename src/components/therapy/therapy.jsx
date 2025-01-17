@@ -7,7 +7,7 @@ function Therapy() {
         <h2 className={css.pageHeader}>Терапевтичне відділення</h2>
         <div className={css.section}>
           <h3 className={css.sectionName}>Про відділення</h3>
-          <div className={css.subsection}>
+          {/* <div className={css.subsection}>
             <h4 className={css.subsectionName}>Керівництво відділення:</h4>
             <p className={css.textIndent}>
               Відділення очолює <strong>Лазарєва Оксана Василівна</strong>,
@@ -18,7 +18,7 @@ function Therapy() {
               успішно справляється з викликами, пов’язаними з наданням
               невідкладної допомоги пацієнтам у критичних станах.
             </p>
-          </div>
+          </div> */}
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Наші лікарі</h4>
             <p className={css.textIndent}>
@@ -42,44 +42,49 @@ function Therapy() {
             </p>
             <br />
             <p className={css.textIndent}>
+              <strong> Лазарєва Оксана Василівна</strong>, завідуюча
+              терапевтичним відділенням, лікар-терапевт другої категорії,
+              лікарський досвід з 2015 року.
+            </p>
+            <p className={css.textIndent}>
               <strong> Могільчук Надія Олександрівна</strong>, лікар-терапевт
-              вищої категорії, лікарський досвід з 1989 року
+              вищої категорії, лікарський досвід з 1989 року.
             </p>
             <p className={css.textIndent}>
               <strong> Гамалій Валентина Михайлівна</strong>, лікар-терапевт
-              вищої категорії, лікарський досвід з 1984 року
+              вищої категорії, лікарський досвід з 1984 року.
             </p>
             <p className={css.textIndent}>
               <strong> Лобода Леся Володимирівна</strong>, лікар-терапевт вищої
-              категорії, лікарський досвід з 2000 року
+              категорії, лікарський досвід з 2000 року.
             </p>
             <p className={css.textIndent}>
               <strong> Дідківська Марта Орестівна</strong>, лікар-терапевт
-              першої категорії, лікарський досвід з 2011 року
+              першої категорії, лікарський досвід з 2011 року.
             </p>
             <p className={css.textIndent}>
               <strong> Малій Дар’я Олександрівна</strong>, лікар-терапевт,
-              лікарський досвід з 2020 року
+              лікарський досвід з 2020 року.
             </p>
             <p className={css.textIndent}>
               <strong> Барташевська Олена Вікторівна</strong>, лікар-терапевт,
-              лікарський досвід з 2019 року
+              лікарський досвід з 2019 року.
             </p>
             <p className={css.textIndent}>
               <strong> Сіденко Анастасія Михайлівна</strong>, лікар-терапевт,
-              лікарський досвід з 2021 року
+              лікарський досвід з 2021 року.
             </p>
             <p className={css.textIndent}>
               <strong>Гралюк Марина Іванівна</strong>, лікар-терапевт вищої
-              категорії, лікарський досвід з 2007 року
+              категорії, лікарський досвід з 2007 року.
             </p>
             <p className={css.textIndent}>
               <strong> Ковальчук Марія Володимирівна</strong>, лікар-невролог,
-              лікарський досвід з 2019 року
+              лікарський досвід з 2019 року.
             </p>
             <p className={css.textIndent}>
               <strong> Кропива Володимир Васильович</strong>, лікар-невролог
-              вищої категорії, лікарський досвід з 2000 року
+              вищої категорії, лікарський досвід з 2000 року.
             </p>
           </div>
           <div className={css.subsection}>
@@ -243,10 +248,10 @@ function Therapy() {
               <div className={css.headTextData}>
                 <div className={css.headName}>
                   <p>
-                    <strong>Лазарєва</strong>&nbsp;
+                    <b>Лазарєва</b>
                   </p>
                   <p>
-                    <strong>Оксана Василівна</strong>
+                    <b>Оксана Василівна</b>
                   </p>
                 </div>
                 <div className={css.headData}>
@@ -268,10 +273,10 @@ function Therapy() {
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
-                      <strong>Могільчук</strong>
+                      <b>Могільчук</b>
                     </p>
                     <p>
-                      <strong>Надія Олександрівна</strong>
+                      <b>Надія Олександрівна</b>
                     </p>
                   </div>
                   <div className={css.docData}>
@@ -289,10 +294,10 @@ function Therapy() {
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
-                      <strong>Гамалій</strong>
+                      <b>Гамалій</b>
                     </p>
                     <p>
-                      <strong>Валентина Михайлівна</strong>
+                      <b>Валентина Михайлівна</b>
                     </p>
                   </div>
                   <div className={css.docData}>
@@ -310,10 +315,10 @@ function Therapy() {
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
-                      <strong>Лобода</strong>
+                      <b>Лобода</b>
                     </p>
                     <p>
-                      <strong>Леся Володимирівна</strong>
+                      <b>Леся Володимирівна</b>
                     </p>
                   </div>
                   <div className={css.docData}>
@@ -331,10 +336,10 @@ function Therapy() {
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
-                      <strong>Дідківська</strong>
+                      <b>Дідківська</b>
                     </p>
                     <p>
-                      <strong>Марта Орестівна</strong>
+                      <b>Марта Орестівна</b>
                     </p>
                   </div>
                   <div className={css.docData}>
@@ -352,10 +357,10 @@ function Therapy() {
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
-                      <strong>Малій</strong>
+                      <b>Малій</b>
                     </p>
                     <p>
-                      <strong>Дар’я Олександрівна</strong>
+                      <b>Дар’я Олександрівна</b>
                     </p>
                   </div>
                   <div className={css.docData}>
@@ -373,10 +378,10 @@ function Therapy() {
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
-                      <strong>Ковальчук</strong>
+                      <b>Ковальчук</b>
                     </p>
                     <p>
-                      <strong>Марія Володимирівна</strong>
+                      <b>Марія Володимирівна</b>
                     </p>
                   </div>
                   <div className={css.docData}>
@@ -398,10 +403,10 @@ function Therapy() {
               <div className={css.headTextData}>
                 <div className={css.headName}>
                   <p>
-                    <strong>Ткачук</strong>&nbsp;
+                    <b>Ткачук</b>&nbsp;
                   </p>
                   <p>
-                    <strong>Марія Борисівна</strong>
+                    <b>Марія Борисівна</b>
                   </p>
                 </div>
                 <div className={css.headData}>
@@ -419,7 +424,7 @@ function Therapy() {
                 />
                 <div className={css.nursesTextData}>
                   <p>
-                    <strong>Павленко Галина Степанівна</strong>, <br />
+                    <b>Павленко Галина Степанівна</b>, <br />
                     медична сестра вищої категорії
                   </p>
                 </div>
@@ -433,7 +438,7 @@ function Therapy() {
                 />
                 <div className={css.nursesTextData}>
                   <p>
-                    <strong>Омельченко Світлана Миколаївна</strong>, <br />
+                    <b>Омельченко Світлана Миколаївна</b>, <br />
                     медична сестра вищої категорії
                   </p>
                 </div>
@@ -447,12 +452,12 @@ function Therapy() {
                 />
                 <div className={css.nursesTextData}>
                   <p>
-                    <strong>Новак Анна Василівна</strong>, <br />
+                    <b>Новак Анна Василівна</b>, <br />
                     медична сестра вищої категорії
                   </p>
                   <br />
                   <p>
-                    <strong>Перцова Діана Олександрівна</strong>, <br />
+                    <b>Перцова Діана Олександрівна</b>, <br />
                     медична сестра
                   </p>
                 </div>
@@ -466,12 +471,12 @@ function Therapy() {
                 />
                 <div className={css.nursesTextData}>
                   <p>
-                    <strong>Приседько Ольга Андріївна</strong>, <br />
+                    <b>Приседько Ольга Андріївна</b>, <br />
                     медична сестра вищої категорії
                   </p>
                   <br />
                   <p>
-                    <strong>Бізіля Саміна Зафарівна</strong>, <br />
+                    <b>Бізіля Саміна Зафарівна</b>, <br />
                     медична сестра
                   </p>
                 </div>
@@ -484,13 +489,13 @@ function Therapy() {
                   loading="lazy"
                 />
                 <div className={css.nursesTextData}>
-                  <p>
-                    <strong>Приседько Ольга Андріївна</strong>, <br />
+                  {/* <p>
+                    <b>Приседько Ольга Андріївна</b>, <br />
                     медична сестра вищої категорії
                   </p>
-                  <br />
+                  <br /> */}
                   <p>
-                    <strong>Домашевкська Світлана Анатоліївна</strong>, <br />
+                    <b>Домашевкська Світлана Анатоліївна</b>, <br />
                     медична сестра вищої категорії
                   </p>
                 </div>
@@ -504,12 +509,12 @@ function Therapy() {
                 />
                 <div className={css.nursesTextData}>
                   <p>
-                    <strong>Веремієць Людмила Миколаївна</strong>, <br />
+                    <b>Веремієць Людмила Миколаївна</b>, <br />
                     медична сестра
                   </p>
                   <br />
                   <p>
-                    <strong>Стеценко Юлія Борисівна</strong>, <br />
+                    <b>Стеценко Юлія Борисівна</b>, <br />
                     медична сестра
                   </p>
                 </div>
@@ -528,10 +533,10 @@ function Therapy() {
               <div className={css.headTextData}>
                 <div className={css.headName}>
                   <p>
-                    <strong>Осьмачкіна</strong>&nbsp;
+                    <b>Осьмачкіна</b>
                   </p>
                   <p>
-                    <strong>Людмила Борисівна</strong>
+                    <b>Людмила Борисівна</b>
                   </p>
                 </div>
                 <div className={css.headData}></div>
@@ -548,7 +553,7 @@ function Therapy() {
                 />
                 <div className={css.nursesTextData}>
                   <p>
-                    <strong>Бабич Віра Михайлівна</strong>, <br />
+                    <b>Бабич Віра Михайлівна</b>, <br />
                     молодша медична сестра
                   </p>
                 </div>
@@ -562,7 +567,7 @@ function Therapy() {
                 />
                 <div className={css.nursesTextData}>
                   <p>
-                    <strong>Рощук Валентина Петрівна</strong>, <br />
+                    <b>Рощук Валентина Петрівна</b>, <br />
                     молодша медична сестра
                   </p>
                 </div>
@@ -576,12 +581,12 @@ function Therapy() {
                 />
                 <div className={css.nursesTextData}>
                   <p>
-                    <strong>Полонська Ніна Іванівна</strong>, <br />
+                    <b>Полонська Ніна Іванівна</b>, <br />
                     молодша медична сестра
                   </p>
                   <br />
                   <p>
-                    <strong>Обруч Ірина Миколаївна</strong>, <br />
+                    <b>Обруч Ірина Миколаївна</b>, <br />
                     молодша медична сестра
                   </p>
                 </div>
@@ -596,7 +601,7 @@ function Therapy() {
                 />
                 <div className={css.nursesTextData}>
                   <p>
-                    <strong>Калюжна Любов Георгіївна</strong>, <br />
+                    <b>Калюжна Любов Георгіївна</b>, <br />
                     молодша медична сестра - буфетниця
                   </p>
                 </div>
@@ -605,8 +610,8 @@ function Therapy() {
           </div>
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Фотоколлаж</h4>
-            <div className={css.sectionGridTwo}>
-              <div className={css.interiorCard}>
+            {/* <div className={css.sectionGridTwo}> */}
+            {/* <div className={css.interiorCard}>
                 <img
                   className={css.interiorPhoto}
                   src="/Collage-01.jpg"
@@ -616,8 +621,8 @@ function Therapy() {
                 <div className={css.textInterior}>
                   <p>Робочий пульс медицини</p>
                 </div>
-              </div>
-              <div className={css.interiorCard}>
+              </div> */}
+            {/* <div className={css.interiorCard}>
                 <img
                   className={css.interiorPhoto}
                   src="/Collage-02.jpg"
@@ -627,8 +632,8 @@ function Therapy() {
                 <div className={css.textInterior}>
                   <p>Берегині здоров&apos;я</p>
                 </div>
-              </div>
-              <div className={css.interiorCard}>
+              </div> */}
+            {/* <div className={css.interiorCard}>
                 <img
                   className={css.interiorPhoto}
                   src="/Collage-03.jpg"
@@ -638,8 +643,8 @@ function Therapy() {
                 <div className={css.textInterior}>
                   <p>Наступність поколінь</p>
                 </div>
-              </div>
-              <div className={css.interiorCard}>
+              </div> */}
+            {/* <div className={css.interiorCard}>
                 <img
                   className={css.interiorPhoto}
                   src="/Collage-04.jpg"
@@ -649,8 +654,8 @@ function Therapy() {
                 <div className={css.textInterior}>
                   <p>Молодість посміхається</p>
                 </div>
-              </div>
-              <div className={css.interiorCard}>
+              </div> */}
+            {/* <div className={css.interiorCard}>
                 <img
                   className={css.interiorPhoto}
                   src="/Collage-05.jpg"
@@ -660,8 +665,8 @@ function Therapy() {
                 <div className={css.textInterior}>
                   <p>Тандем турботи і здоров&apos;я</p>
                 </div>
-              </div>
-              <div className={css.interiorCard}>
+              </div> */}
+            {/* <div className={css.interiorCard}>
                 <img
                   className={css.interiorPhoto}
                   src="/Collage-06.jpg"
@@ -671,8 +676,8 @@ function Therapy() {
                 <div className={css.textInterior}>
                   <p>Терапевтична зміна з лідером</p>
                 </div>
-              </div>
-              <div className={css.interiorCard}>
+              </div> */}
+            {/* <div className={css.interiorCard}>
                 <img
                   className={css.interiorPhoto}
                   src="/Collage-07.jpg"
@@ -682,8 +687,8 @@ function Therapy() {
                 <div className={css.textInterior}>
                   <p>Діагностика з увагою до кожного</p>
                 </div>
-              </div>
-              <div className={css.interiorCard}>
+              </div> */}
+            {/* <div className={css.interiorCard}>
                 <img
                   className={css.interiorPhoto}
                   src="/Collage-08.jpg"
@@ -693,8 +698,8 @@ function Therapy() {
                 <div className={css.textInterior}>
                   <p>І знову новий пацієнт</p>
                 </div>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
             <div className={css.interiorCard}>
               <img
                 className={css.interiorPhoto}
