@@ -1,11 +1,9 @@
-// import css from './therapy.module.css';
+import css from './therapy.module.css';
 
 function Therapy() {
   return (
     <>
-      <h1>Website is temporarily unavailable</h1>
-      <p>We are performing maintenance. Please check back later.</p>
-      {/* <div className={css.container}>
+      <div className={css.container}>
         <h2 className={css.pageHeader}>Терапевтичне відділення</h2>
         <div className={css.section}>
           <h3 className={css.sectionName}>Про відділення</h3>
@@ -713,7 +711,7 @@ function Therapy() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </>
   );
 }
