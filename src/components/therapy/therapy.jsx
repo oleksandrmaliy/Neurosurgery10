@@ -7,18 +7,6 @@ function Therapy() {
         <h2 className={css.pageHeader}>Терапевтичне відділення</h2>
         <div className={css.section}>
           <h3 className={css.sectionName}>Про відділення</h3>
-          {/* <div className={css.subsection}>
-            <h4 className={css.subsectionName}>Керівництво відділення:</h4>
-            <p className={css.textIndent}>
-              Відділення очолює <strong>Лазарєва Оксана Василівна</strong>,
-              лікар-терапевт із багаторічним досвідом роботи. Під її
-              керівництвом забезпечується високий рівень організації медичної
-              допомоги, яка відповідає сучасним стандартам. Завдяки
-              професіоналізму та лідерським якостям завідуючої, відділення
-              успішно справляється з викликами, пов’язаними з наданням
-              невідкладної допомоги пацієнтам у критичних станах.
-            </p>
-          </div> */}
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Наші лікарі</h4>
             <p className={css.textIndent}>
@@ -97,17 +85,16 @@ function Therapy() {
             </p>
             <p className={css.textIndent}>Серед наших професіоналів:</p>
             <p className={css.textIndent}>
-              <strong> Ткачук Марія Борисівна</strong>, старша медична сестра
-              вищої категорії, працює в медицині з 1993 року. Вона не лише надає
+              <b> Ткачук Марія Борисівна</b>, старша медична сестра вищої
+              категорії, працює в медицині з 1993 року. Вона не лише надає
               кваліфіковану медичну допомогу, а й координує роботу медсестер
               відділення, забезпечуючи високий рівень обслуговування пацієнтів.
             </p>
             <p className={css.textIndent}>
-              <strong>Осьмачкіна Людмила Борисівна</strong>, працівник з
-              господарської діяльності, працює у медицині з 1996 року. Вона
-              забезпечує належну організацію та підтримку роботи молодших
-              медичних сестер, гарантує злагодженість процесів і належний рівень
-              обслуговування.
+              <b>Осьмачкіна Людмила Борисівна</b>, працівник з господарської
+              діяльності, працює у медицині з 1996 року. Вона забезпечує належну
+              організацію та підтримку роботи молодших медичних сестер, гарантує
+              злагодженість процесів і належний рівень обслуговування.
             </p>
             <p className={css.textIndent}>
               Наші медичні сестри – це справжні професіонали, які виконують
@@ -489,11 +476,6 @@ function Therapy() {
                   loading="lazy"
                 />
                 <div className={css.nursesTextData}>
-                  {/* <p>
-                    <b>Приседько Ольга Андріївна</b>, <br />
-                    медична сестра вищої категорії
-                  </p>
-                  <br /> */}
                   <p>
                     <b>Домашевкська Світлана Анатоліївна</b>, <br />
                     медична сестра вищої категорії
@@ -610,96 +592,7 @@ function Therapy() {
           </div>
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Фотоколлаж</h4>
-            {/* <div className={css.sectionGridTwo}> */}
-            {/* <div className={css.interiorCard}>
-                <img
-                  className={css.interiorPhoto}
-                  src="/Collage-01.jpg"
-                  alt="Відділення"
-                  loading="lazy"
-                />
-                <div className={css.textInterior}>
-                  <p>Робочий пульс медицини</p>
-                </div>
-              </div> */}
-            {/* <div className={css.interiorCard}>
-                <img
-                  className={css.interiorPhoto}
-                  src="/Collage-02.jpg"
-                  alt="Відділення"
-                  loading="lazy"
-                />
-                <div className={css.textInterior}>
-                  <p>Берегині здоров&apos;я</p>
-                </div>
-              </div> */}
-            {/* <div className={css.interiorCard}>
-                <img
-                  className={css.interiorPhoto}
-                  src="/Collage-03.jpg"
-                  alt="Відділення"
-                  loading="lazy"
-                />
-                <div className={css.textInterior}>
-                  <p>Наступність поколінь</p>
-                </div>
-              </div> */}
-            {/* <div className={css.interiorCard}>
-                <img
-                  className={css.interiorPhoto}
-                  src="/Collage-04.jpg"
-                  alt="Відділення"
-                  loading="lazy"
-                />
-                <div className={css.textInterior}>
-                  <p>Молодість посміхається</p>
-                </div>
-              </div> */}
-            {/* <div className={css.interiorCard}>
-                <img
-                  className={css.interiorPhoto}
-                  src="/Collage-05.jpg"
-                  alt="Відділення"
-                  loading="lazy"
-                />
-                <div className={css.textInterior}>
-                  <p>Тандем турботи і здоров&apos;я</p>
-                </div>
-              </div> */}
-            {/* <div className={css.interiorCard}>
-                <img
-                  className={css.interiorPhoto}
-                  src="/Collage-06.jpg"
-                  alt="Відділення"
-                  loading="lazy"
-                />
-                <div className={css.textInterior}>
-                  <p>Терапевтична зміна з лідером</p>
-                </div>
-              </div> */}
-            {/* <div className={css.interiorCard}>
-                <img
-                  className={css.interiorPhoto}
-                  src="/Collage-07.jpg"
-                  alt="Відділення"
-                  loading="lazy"
-                />
-                <div className={css.textInterior}>
-                  <p>Діагностика з увагою до кожного</p>
-                </div>
-              </div> */}
-            {/* <div className={css.interiorCard}>
-                <img
-                  className={css.interiorPhoto}
-                  src="/Collage-08.jpg"
-                  alt="Відділення"
-                  loading="lazy"
-                />
-                <div className={css.textInterior}>
-                  <p>І знову новий пацієнт</p>
-                </div>
-              </div> */}
-            {/* </div> */}
+
             <div className={css.interiorCard}>
               <img
                 className={css.interiorPhoto}
