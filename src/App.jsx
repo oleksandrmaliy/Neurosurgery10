@@ -1,9 +1,9 @@
-import Therapy from './components/therapy/therapy';
+import Neurosurgery3 from './components/neurosurgery3/neurosurgery3.jsx';
 
 function App() {
   return (
     <>
-      <Therapy />
+      <Neurosurgery3 />
     </>
   );
 }
