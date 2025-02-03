@@ -12,65 +12,101 @@ function Neurosurgery3() {
         <div className={css.section}>
           <h3 className={css.sectionName}>Про відділення</h3>
           <div className={css.subsection}>
-            <h4 className={css.subsectionName}>Наші лікарі</h4>
+            <h4 className={css.subsectionName}>Загальний опис</h4>
             <p className={css.textIndent}>
-              вiддiлення ЛШМД Києва пишається командою висококвалiфiкованих
-              лiкарiв iз багаторiчним досвiдом роботи. У нашiй командi є як
-              молодi фахiвцi, так i досвiдченi лiкарi, чий професiйний шлях у
-              медицинi триває вже не одне десятилiття. Кожен iз наших лiкарiв
-              постiйно вдосконалює свої знання та навички, щоб вiдповiдати
-              сучасним стандартам медичної допомоги.
-            </p>
-
-            <p className={css.textIndent}>Дізнайтеся</p>
-            <br />
-            <p className={css.textIndent}>
-              <strong> Лазарєва Оксана Василівна</strong>, завідуюча
-              терапевтичним відділенням, лікар-терапевт другої категорії,
-              лікарський досвід з 2015 року.
+              Нейрохірургічне відділення №3 (хірургія хребта та спинного мозку)
+              КНП КМКЛШМД розташоване на 10-му поверсі лікувального корпусу
+              лікарні. Відділення розраховане на 30 ліжок і спеціалізується на
+              наданні планової та цілодобової ургентної допомоги пацієнтам із
+              захворюваннями та травмами хребта і спинного мозку, ускладненого
+              остеохондрозу, а також інших патологій, що потребують хірургічного
+              втручання.
             </p>
             <p className={css.textIndent}>
-              <strong> Могільчук Надія Олександрівна</strong>, лікар-терапевт
-              вищої категорії, лікарський досвід з 1989 року.
-            </p>
-            <p className={css.textIndent}>
-              <strong> Гамалій Валентина Михайлівна</strong>, лікар-терапевт
-              вищої категорії, лікарський досвід з 1984 року.
-            </p>
-            <p className={css.textIndent}>
-              <strong> Лобода Леся Володимирівна</strong>, лікар-терапевт вищої
-              категорії, лікарський досвід з 2000 року.
-            </p>
-            <p className={css.textIndent}>
-              <strong> Дідківська Марта Орестівна</strong>, лікар-терапевт
-              першої категорії, лікарський досвід з 2011 року.
-            </p>
-            <p className={css.textIndent}>
-              <strong> Малій Дар’я Олександрівна</strong>, лікар-терапевт,
-              лікарський досвід з 2020 року.
-            </p>
-            <p className={css.textIndent}>
-              <strong> Барташевська Олена Вікторівна</strong>, лікар-терапевт,
-              лікарський досвід з 2019 року.
-            </p>
-            <p className={css.textIndent}>
-              <strong> Сіденко Анастасія Михайлівна</strong>, лікар-терапевт,
-              лікарський досвід з 2021 року.
-            </p>
-            <p className={css.textIndent}>
-              <strong>Гралюк Марина Іванівна</strong>, лікар-терапевт вищої
-              категорії, лікарський досвід з 2007 року.
-            </p>
-            <p className={css.textIndent}>
-              <strong> Ковальчук Марія Володимирівна</strong>, лікар-невролог,
-              лікарський досвід з 2019 року.
-            </p>
-            <p className={css.textIndent}>
-              <strong> Кропива Володимир Васильович</strong>, лікар-невролог
-              вищої категорії, лікарський досвід з 2000 року.
+              Завідувачем відділення є Данчук Сергій Вікторович. Для отримання
+              додаткової інформації або запису на консультацію можна
+              зателефонувати за номером: (044) 527-69-69.
             </p>
           </div>
           <div className={css.subsection}>
+            <h4 className={css.subsectionName}>Наші лікарі</h4>
+
+            <p className={css.textIndent}>
+              Нейрохірургічне відділення №3 (хірургія хребта та спинного мозку)
+              КНП КМКЛШМД гордиться своєю професійною командою лікарів, які
+              мають значний досвід і глибокі знання у сфері нейрохірургії. У
+              складі відділення працюють як енергійні молоді спеціалісти, так і
+              висококваліфіковані лікарі з багаторічною практикою, які
+              присвятили десятки років лікуванню складних захворювань хребта та
+              спинного мозку.
+            </p>
+            <p className={css.textIndent}>
+              Наші фахівці постійно працюють над удосконаленням своїх навичок,
+              беручи участь у міжнародних конференціях, семінарах та
+              майстер-класах, щоб впроваджувати у практику найновітніші методики
+              лікування. Багато лікарів відділення пройшли стажування в
+              передових нейрохірургічних клініках Європи та Сполучених Штатів
+              Америки. Завдяки такому підходу, відділення забезпечує надання
+              медичної допомоги на найвищому рівні, відповідно до світових
+              стандартів.
+            </p>
+            <p className={css.textIndent}>
+              Команда нейрохірургів відділення №3 об&apos;єднана спільною метою
+              – покращення якості життя пацієнтів шляхом точного діагностування
+              та ефективного лікування патологій хребта і спинного мозку. Кожен
+              лікар не лише володіє глибокими теоретичними знаннями, але й має
+              унікальний практичний досвід, що дозволяє знаходити індивідуальний
+              підхід до кожного пацієнта.
+            </p>
+            <br />
+            <p className={css.textIndent}>Знайомтеся ближче з лікарями:</p>
+            <br />
+            <p className={css.textIndent}>
+              <strong> Данчук Сергій Вікторович</strong>, завідуючий
+              відділенням, лікар-нейрохірург вищої категорії.
+            </p>
+            <p className={css.textIndent}>
+              <strong> Прізвище Ім&apos;я Побатькові</strong>, лікар-нейрохірург
+              вищої категорії.
+            </p>
+            <p className={css.textIndent}>
+              <strong> Прізвище Ім&apos;я Побатькові</strong>, лікар-нейрохірург
+              вищої категорії.
+            </p>
+            <p className={css.textIndent}>
+              <strong> Прізвище Ім&apos;я Побатькові</strong>, лікар-нейрохірург
+              вищої категорії.
+            </p>
+            <p className={css.textIndent}>
+              <strong> Прізвище Ім&apos;я Побатькові</strong>, лікар-нейрохірург
+              вищої категорії.
+            </p>
+            <p className={css.textIndent}>
+              <strong> Прізвище Ім&apos;я Побатькові</strong>, лікар-нейрохірург
+              вищої категорії.
+            </p>
+            <p className={css.textIndent}>
+              <strong> Прізвище Ім&apos;я Побатькові</strong>, лікар-нейрохірург
+              вищої категорії.
+            </p>
+            <p className={css.textIndent}>
+              <strong> Прізвище Ім&apos;я Побатькові</strong>, лікар-нейрохірург
+              вищої категорії.
+            </p>
+            <p className={css.textIndent}>
+              <strong> Прізвище Ім&apos;я Побатькові</strong>, лікар-нейрохірург
+              вищої категорії.
+            </p>
+            <p className={css.textIndent}>
+              <strong> Прізвище Ім&apos;я Побатькові</strong>, лікар-нейрохірург
+              вищої категорії.
+            </p>
+            <p className={css.textIndent}>
+              <strong> Прізвище Ім&apos;я Побатькові</strong>, лікар-нейрохірург
+              вищої категорії.
+            </p>
+          </div>
+          {/* <div className={css.subsection}>
             <h4 className={css.subsectionName}>Команда медсестер</h4>
             <p className={css.textIndent}>відділення КМКЛШМД</p>
             <p className={css.textIndent}>Серед наших професіоналів:</p>
@@ -78,24 +114,25 @@ function Neurosurgery3() {
             <p className={css.textIndent}>обслуговування.</p>
             <p className={css.textIndent}>момент.</p>
             <p className={css.textIndent}>пацієнту.</p>
-          </div>
-          <div className={css.subsection}>
+          </div> */}
+          {/* <div className={css.subsection}>
             <h4 className={css.subsectionName}>Основні завдання:</h4>
             <p className={css.textIndent}>Завдання</p>
             <p className={css.textIndent}>захворюваннями.</p>
             <p className={css.textIndent}>установи.</p>
             <p className={css.textIndent}>відділення.</p>
-          </div>
+          </div> */}
+
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>
               Основні лікувальні направлення відділення:
             </h4>
             <ul>
               <li>
-                <p className={css.textIndent}>
+                <p>
                   <b>1. Гостра травма хребта і спинного мозку:</b>
                 </p>
-                <ul className={css.textIndent}>
+                <ul>
                   <li>
                     <p>
                       a) ускладнені переломи та вивих шийного відділу хребта
@@ -114,10 +151,10 @@ function Neurosurgery3() {
                 </ul>
               </li>
               <li>
-                <p className={css.textIndent}>
+                <p>
                   <b>2. Ускладнений остеохондроз:</b>
                 </p>
-                <ul className={css.textIndent}>
+                <ul>
                   <li>
                     <p>a) шийного відділу:</p>
                     <ul>
@@ -157,22 +194,22 @@ function Neurosurgery3() {
                 </ul>
               </li>
               <li>
-                <p className={css.textIndent}>
+                <p>
                   <b>3. Новоутворення хребта і спинного мозку;</b>
                 </p>
               </li>
               <li>
-                <p className={css.textIndent}>
+                <p>
                   <b>4. Новоутворення краніо-вертебральної області;</b>
                 </p>
               </li>
               <li>
-                <p className={css.textIndent}>
+                <p>
                   <b>5. Наслідки хребетно-спиномозкової травми;</b>
                 </p>
               </li>
               <li>
-                <p className={css.textIndent}>
+                <p>
                   <b>6. Запальні процеси хребта і спинного мозку.</b>
                 </p>
               </li>
@@ -182,10 +219,10 @@ function Neurosurgery3() {
             <h4 className={css.subsectionName}>Типи операцій:</h4>
             <ul>
               <li>
-                <p className={css.textIndent}>
+                <p>
                   <b>1. Хірургія хребта</b>
                 </p>
-                <ul className={css.textIndent}>
+                <ul>
                   <li>
                     <p>a) корпоректомія на всіх відділах хребта;</p>
                   </li>
@@ -207,13 +244,13 @@ function Neurosurgery3() {
                 </ul>
               </li>
               <li>
-                <p className={css.textIndent}>
+                <p>
                   <b>
                     2. Нейроонкологія (видалення пухлин хребта і спинного
                     мозку):
                   </b>
                 </p>
-                <ul className={css.textIndent}>
+                <ul>
                   <li>
                     <p>a) операції при гнійно-запальних ураженнях хребта;</p>
                   </li>
@@ -223,13 +260,90 @@ function Neurosurgery3() {
                 </ul>
               </li>
             </ul>
+            <p className={css.textIndent}>
+              Всі операції проводяться в умовах сучасної операційної з
+              застосуванням збільшувальної техніки, мікронейрохіругічного
+              інструментарію, з використанням передових сучасних світових
+              технологій.
+            </p>
           </div>
           <div className={css.subsection}>
-            <h4 className={css.subsectionName}>Щоденна діяльність:</h4>
-            <p className={css.textIndent}>електричним струмом.</p>
-            <p className={css.textIndent}>критичних станів.</p>
+            <h4 className={css.subsectionName}>Діагностика:</h4>
+            <ul>
+              <li>
+                <p>
+                  <b>1. Магнітно-резонансний томограф (МРТ)</b>
+                </p>
+                <p className={css.textIndent}>
+                  Це високоточний метод візуалізації, що використовує магнітні
+                  поля та радіохвилі для створення детальних зображень
+                  внутрішніх структур тіла. МРТ дозволяє оцінити стан спинного
+                  мозку, міжхребцевих дисків, нервових корінців і м’яких тканин,
+                  що важливо для виявлення пухлин, гриж, запальних процесів та
+                  травм.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <b>2. Комп&apos;ютерна томографія (КТ)</b>
+                </p>
+                <p className={css.textIndent}>
+                  КТ використовує рентгенівське випромінювання для створення
+                  пошарових зображень органів і тканин. Цей метод особливо
+                  ефективний для оцінки кісткових структур хребта, виявлення
+                  переломів, а також діагностики внутрішніх кровотеч або
+                  новоутворень. Швидкість проведення дослідження дозволяє
+                  оперативно оцінити стан пацієнта в ургентних випадках.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <b>3. Цифровий рентгенівський апарат</b>
+                </p>
+                <p className={css.textIndent}>
+                  Сучасний цифровий рентген забезпечує високу якість зображень
+                  із мінімальною дозою опромінення для пацієнта. Він
+                  використовується для первинної діагностики травм хребта,
+                  контролю стану післяопераційних змін і динамічного
+                  спостереження за пацієнтами.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <b>
+                    4. Апарат дуплексного сканування екстра- і інтракраніальних
+                    судин
+                  </b>
+                </p>
+                <p className={css.textIndent}>
+                  Дуплексне сканування поєднує у собі ультразвукову
+                  доплерографію і традиційне ультразвукове дослідження. Цей
+                  метод дозволяє оцінити кровотік у судинах головного мозку та
+                  шиї, виявити стенози, тромби або аневризми, що можуть впливати
+                  на стан спинного мозку і нервової системи загалом.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <b>5. Електронейроміографія (ЕНМГ)</b>
+                </p>
+                <p className={css.textIndent}>
+                  ЕНМГ досліджує електричну активність м&apos;язів і нервів, що
+                  їх іннервують. Це важливий метод для діагностики нейропатій,
+                  корінцевих синдромів, порушень провідності нервів і
+                  захворювань м’язової тканини. Він допомагає визначити
+                  локалізацію та ступінь ураження нервової системи.
+                </p>
+              </li>
+            </ul>
+            <p className={css.textIndent}>
+              Ці діагностичні методи дозволяють забезпечити всебічне обстеження
+              пацієнтів із захворюваннями та травмами хребта і спинного мозку,
+              що сприяє своєчасному встановленню точного діагнозу і вибору
+              найбільш ефективного лікування.
+            </p>
           </div>
-          <div className={css.subsection}>
+          {/* <div className={css.subsection}>
             <h4 className={css.subsectionName}>Статистика:</h4>
             <p className={css.textIndent}>
               Відділення розраховане на 30 ліжок, що дозволяє ефективно надавати
@@ -255,7 +369,7 @@ function Neurosurgery3() {
             <p className={css.textIndent}>діагностики</p>
             <p className={css.textIndent}>Комп’ютерна томографія (КТ)</p>
             <p className={css.textIndent}>ефективною.</p>
-          </div>
+          </div> */}
 
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Контактні телефони:</h4>
@@ -274,21 +388,21 @@ function Neurosurgery3() {
             <div className={css.headCard}>
               <img
                 className={css.headPhoto}
-                src="/LazarevaOV.jpg"
+                src="/doc0.jpg"
                 alt="Завідуючий відділенням"
                 loading="lazy"
               />
               <div className={css.headTextData}>
                 <div className={css.headName}>
                   <p>
-                    <b>Лазарєва</b>
+                    <b>Данчук</b>
                   </p>
                   <p>
-                    <b>Оксана Василівна</b>
+                    <b>Сергій Вікторович</b>
                   </p>
                 </div>
                 <div className={css.headData}>
-                  <p>Зав</p>
+                  <p>Завідуючий відділенням</p>
                 </div>
               </div>
             </div>
@@ -299,126 +413,126 @@ function Neurosurgery3() {
               <div className={css.docCard}>
                 <img
                   className={css.docPhoto}
-                  src="/MogilchukNO.jpg"
+                  src="/doc1.jpg"
                   alt="Доктор"
                   loading="lazy"
                 />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
-                      <b>Могільчук</b>
+                      <b>Прізвище</b>
                     </p>
                     <p>
-                      <b>Надія Олександрівна</b>
+                      <b>Ім&apos;я Побатькові</b>
                     </p>
                   </div>
                   <div className={css.docData}>
-                    <p>Лікар-терапевт</p>
+                    <p>Лікар-нейрохірург</p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
                 <img
                   className={css.docPhoto}
-                  src="/GamaliyVM.jpg"
+                  src="/doc2.jpg"
                   alt="Доктор"
                   loading="lazy"
                 />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
-                      <b>Гамалій</b>
+                      <b>Прізвище</b>
                     </p>
                     <p>
-                      <b>Валентина Михайлівна</b>
+                      <b>Ім&apos;я Побатькові</b>
                     </p>
                   </div>
                   <div className={css.docData}>
-                    <p>Лікар-терапевт</p>
+                    <p>Лікар-нейрохірург</p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
                 <img
                   className={css.docPhoto}
-                  src="/LobodaLV.jpg"
+                  src="/doc3.jpg"
                   alt="Доктор"
                   loading="lazy"
                 />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
-                      <b>Лобода</b>
+                      <b>Прізвище</b>
                     </p>
                     <p>
-                      <b>Леся Володимирівна</b>
+                      <b>Ім&apos;я Побатькові</b>
                     </p>
                   </div>
                   <div className={css.docData}>
-                    <p>Лікар-терапевт</p>
+                    <p>Лікар-нейрохірург</p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
                 <img
                   className={css.docPhoto}
-                  src="/DidkivskaMO.jpg"
+                  src="/doc4.jpg"
                   alt="Доктор"
                   loading="lazy"
                 />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
-                      <b>Дідківська</b>
+                      <b>Прізвище</b>
                     </p>
                     <p>
-                      <b>Марта Орестівна</b>
+                      <b>Ім&apos;я Побатькові</b>
                     </p>
                   </div>
                   <div className={css.docData}>
-                    <p>Лікар-терапевт</p>
+                    <p>Лікар-нейрохірург</p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
                 <img
                   className={css.docPhoto}
-                  src="/MaliyDO.jpg"
+                  src="/doc5.jpg"
                   alt="Доктор"
                   loading="lazy"
                 />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
-                      <b>Малій</b>
+                      <b>Прізвище</b>
                     </p>
                     <p>
-                      <b>Дар’я Олександрівна</b>
+                      <b>Ім&apos;я Побатькові</b>
                     </p>
                   </div>
                   <div className={css.docData}>
-                    <p>Лікар-терапевт</p>
+                    <p>Лікар-нейрохірург</p>
                   </div>
                 </div>
               </div>
               <div className={css.docCard}>
                 <img
                   className={css.docPhoto}
-                  src="/KovalchukMV.jpg"
+                  src="/doc6.jpg"
                   alt="Доктор"
                   loading="lazy"
                 />
                 <div className={css.docTextData}>
                   <div className={css.docName}>
                     <p>
-                      <b>Ковальчук</b>
+                      <b>Прізвище</b>
                     </p>
                     <p>
-                      <b>Марія Володимирівна</b>
+                      <b>Ім&apos;я Побатькові</b>
                     </p>
                   </div>
                   <div className={css.docData}>
-                    <p>Лікар-невролог</p>
+                    <p>Лікар-нейрохірург</p>
                   </div>
                 </div>
               </div>
@@ -429,17 +543,17 @@ function Neurosurgery3() {
             <div className={css.headCard}>
               <img
                 className={css.headPhoto}
-                src="/TkachukMB.jpg"
+                src="/nurse1.jpg"
                 alt="Старша м/с"
                 loading="lazy"
               />
               <div className={css.headTextData}>
                 <div className={css.headName}>
                   <p>
-                    <b>Ткачук</b>&nbsp;
+                    <b>Прізвище</b>
                   </p>
                   <p>
-                    <b>Марія Борисівна</b>
+                    <b>Ім&apos;я Побатькові</b>
                   </p>
                 </div>
                 <div className={css.headData}>
@@ -451,13 +565,13 @@ function Neurosurgery3() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/Ms-PavlenkoGS.jpg"
+                  src="/nurse3.jpg"
                   alt="Медсестри"
                   loading="lazy"
                 />
                 <div className={css.nursesTextData}>
                   <p>
-                    <b>Павленко Галина Степанівна</b>, <br />
+                    <b>ПІБ</b>, <br />
                     медична сестра вищої категорії
                   </p>
                 </div>
@@ -465,172 +579,14 @@ function Neurosurgery3() {
               <div className={css.nursesCard}>
                 <img
                   className={css.nursesPhoto}
-                  src="/Ms-Omelchenko.jpg"
+                  src="/nurse2.jpg"
                   alt="Медсестри"
                   loading="lazy"
                 />
                 <div className={css.nursesTextData}>
                   <p>
-                    <b>Омельченко Світлана Миколаївна</b>, <br />
+                    <b>ПІБ</b>, <br />
                     медична сестра вищої категорії
-                  </p>
-                </div>
-              </div>
-              <div className={css.nursesCard}>
-                <img
-                  className={css.nursesPhoto}
-                  src="/Ms-Novak-Percova.jpg"
-                  alt="Медсестри"
-                  loading="lazy"
-                />
-                <div className={css.nursesTextData}>
-                  <p>
-                    <b>Новак Анна Василівна</b>, <br />
-                    медична сестра вищої категорії
-                  </p>
-                  <br />
-                  <p>
-                    <b>Перцова Діана Олександрівна</b>, <br />
-                    медична сестра
-                  </p>
-                </div>
-              </div>
-              <div className={css.nursesCard}>
-                <img
-                  className={css.nursesPhoto}
-                  src="/Ms-Prysedko-Bizilya.jpg"
-                  alt="Медсестри"
-                  loading="lazy"
-                />
-                <div className={css.nursesTextData}>
-                  <p>
-                    <b>Приседько Ольга Андріївна</b>, <br />
-                    медична сестра вищої категорії
-                  </p>
-                  <br />
-                  <p>
-                    <b>Бізіля Саміна Зафарівна</b>, <br />
-                    медична сестра
-                  </p>
-                </div>
-              </div>
-              <div className={css.nursesCard}>
-                <img
-                  className={css.nursesPhoto}
-                  src="/Ms-Prysedko-Domashevska.jpg"
-                  alt="Медсестри"
-                  loading="lazy"
-                />
-                <div className={css.nursesTextData}>
-                  <p>
-                    <b>Домашевкська Світлана Анатоліївна</b>, <br />
-                    медична сестра вищої категорії
-                  </p>
-                </div>
-              </div>
-              <div className={css.nursesCard}>
-                <img
-                  className={css.nursesPhoto}
-                  src="/NoPhotoHor.jpg"
-                  alt="Медсестри"
-                  loading="lazy"
-                />
-                <div className={css.nursesTextData}>
-                  <p>
-                    <b>Веремієць Людмила Миколаївна</b>, <br />
-                    медична сестра
-                  </p>
-                  <br />
-                  <p>
-                    <b>Стеценко Юлія Борисівна</b>, <br />
-                    медична сестра
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={css.subsection}>
-            <h4 className={css.subsectionName}>Молодший сестринський склад</h4>
-            <div className={css.headCard}>
-              <img
-                className={css.headPhoto}
-                src="/OsmachkinaLB.jpg"
-                alt="Сестра-господарка"
-                loading="lazy"
-              />
-              <div className={css.headTextData}>
-                <div className={css.headName}>
-                  <p>
-                    <b>Осьмачкіна</b>
-                  </p>
-                  <p>
-                    <b>Людмила Борисівна</b>
-                  </p>
-                </div>
-                <div className={css.headData}></div>
-                <p>Працівник з господарської діяльності</p>
-              </div>
-            </div>
-            <div className={css.sectionGridTwo}>
-              <div className={css.nursesCard}>
-                <img
-                  className={css.nursesPhoto}
-                  src="/Sn-BabychVM.jpg"
-                  alt="Санітарки"
-                  loading="lazy"
-                />
-                <div className={css.nursesTextData}>
-                  <p>
-                    <b>Бабич Віра Михайлівна</b>, <br />
-                    молодша медична сестра
-                  </p>
-                </div>
-              </div>
-              <div className={css.nursesCard}>
-                <img
-                  className={css.nursesPhoto}
-                  src="/Sn-RoschukV.jpg"
-                  alt="Санітарки"
-                  loading="lazy"
-                />
-                <div className={css.nursesTextData}>
-                  <p>
-                    <b>Рощук Валентина Петрівна</b>, <br />
-                    молодша медична сестра
-                  </p>
-                </div>
-              </div>
-              <div className={css.nursesCard}>
-                <img
-                  className={css.nursesPhoto}
-                  src="/Sn-Polonska-Obrush.jpg"
-                  alt="Санітарки-буфетниці"
-                  loading="lazy"
-                />
-                <div className={css.nursesTextData}>
-                  <p>
-                    <b>Полонська Ніна Іванівна</b>, <br />
-                    молодша медична сестра
-                  </p>
-                  <br />
-                  <p>
-                    <b>Обруч Ірина Миколаївна</b>, <br />
-                    молодша медична сестра
-                  </p>
-                </div>
-              </div>
-
-              <div className={css.nursesCard}>
-                <img
-                  className={css.nursesPhoto}
-                  src="/Sn-KaluzhnaLG.jpg"
-                  alt="Санітарки-буфетниці"
-                  loading="lazy"
-                />
-                <div className={css.nursesTextData}>
-                  <p>
-                    <b>Калюжна Любов Георгіївна</b>, <br />
-                    молодша медична сестра - буфетниця
                   </p>
                 </div>
               </div>
@@ -638,16 +594,39 @@ function Neurosurgery3() {
           </div>
           <div className={css.subsection}>
             <h4 className={css.subsectionName}>Фотоколлаж</h4>
-
+            <div className={css.sectionGridTwo}>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/surgical.jpg"
+                  alt="Операційна"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>Операційна нейрохірургічного відділення №3</p>
+                </div>
+              </div>
+              <div className={css.nursesCard}>
+                <img
+                  className={css.nursesPhoto}
+                  src="/flag.jpg"
+                  alt="Flag UA"
+                  loading="lazy"
+                />
+                <div className={css.nursesTextData}>
+                  <p>Подяка відділенню від наших захисників</p>
+                </div>
+              </div>
+            </div>
             <div className={css.interiorCard}>
               <img
                 className={css.interiorPhoto}
-                src="/Collage-09.jpg"
-                alt="Відділення"
+                src="/staff.jpg"
+                alt="Колектив відділення"
                 loading="lazy"
               />
               <div className={css.textInterior}>
-                <p>відділення ЛШМД.</p>
+                <p>Коллектив нейрохірургічного відділення №3</p>
               </div>
             </div>
           </div>
